@@ -1,15 +1,11 @@
 @import "tailwindcss";
 
+/* Menggunakan standar variabel CSS agar tidak dianggap error oleh VS Code */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --blue-primary: #3b82f6;
+  --blue-dark: #1e40af;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +15,58 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* --- SOLUSI TOTAL BANNER GOOGLE TRANSLATE --- */
+
+/* Mencegah Google memaksa padding di atas */
+html, body {
+    padding-top: 0 !important;
+    top: 0 !important;
+    position: static !important;
+}
+
+/* Sembunyikan elemen banner asli Google */
+.goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate,
+.goog-te-balloon-frame,
+#goog-gt-tt,
+.goog-te-spinner-pos,
+.goog-logo-link,
+.goog-te-gadget span {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+    font-size: 0 !important;
+}
+
+/* Mempercantik Dropdown Bahasa agar Elegan */
+.goog-te-combo {
+    background-color: transparent;
+    border: 1px solid var(--blue-primary);
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: var(--blue-primary);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Penyesuaian Dropdown saat Dark Mode */
+.dark .goog-te-combo {
+    background-color: #111827;
+    color: #60a5fa;
+    border-color: var(--blue-dark);
+}
+
+.goog-te-combo:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+/* Hilangkan warna kuning yang muncul saat teks diterjemahkan */
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
 }
