@@ -1,26 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  /* Light Mode - High Contrast Professional */
   --bg-app: #ffffff;
-  --bg-nav: rgba(255, 255, 255, 0.8);
-  --text-main: #0f172a;    /* Slate 900 - Sangat Jelas */
-  --text-muted: #475569;   /* Slate 600 - Deskripsi Jelas */
+  --bg-nav: rgba(255, 255, 255, 0.85);
+  --text-main: #0f172a;    /* High-contrast Slate 900 */
+  --text-muted: #475569;   /* Slate 600 */
   --border-ui: #e2e8f0;
   --accent-blue: #2563eb;
 }
 
 .dark {
-  /* Dark Mode - Premium Midnight */
   --bg-app: #050505;
-  --bg-nav: rgba(5, 5, 5, 0.8);
-  --text-main: #f8fafc;    /* Slate 50 */
-  --text-muted: #94a3b8;   /* Slate 400 */
+  --bg-nav: rgba(5, 5, 5, 0.85);
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
   --border-ui: #1e293b;
   --accent-blue: #3b82f6;
 }
 
-/* Global Reset & High Performance Smooth Transition */
 * {
   transition: background-color 0.7s cubic-bezier(0.4, 0, 0.2, 1), 
               color 0.7s cubic-bezier(0.4, 0, 0.2, 1),
@@ -31,20 +28,14 @@ body {
   background-color: var(--bg-app);
   color: var(--text-main);
   margin: 0;
-  font-family: var(--font-geist-sans), sans-serif;
 }
 
-/* Navbar Theme-Aware */
 nav {
   background-color: var(--bg-nav) !important;
   border-color: var(--border-ui) !important;
 }
 
-/* Typography Utility */
-.text-main { color: var(--text-main); }
-.text-muted { color: var(--text-muted); }
-
-/* GTranslate Custom Styling - Sync with Theme */
+/* GTranslate Styling - English Default Focus */
 .gtranslate_wrapper {
   display: flex !important;
   align-items: center !important;
@@ -56,11 +47,10 @@ nav {
   border-radius: 10px !important;
   color: var(--accent-blue) !important;
   height: 38px !important;
-  padding: 0 12px !important;
   font-size: 13px !important;
   font-weight: 600 !important;
   outline: none !important;
 }
 
-/* Cleanup */
+/* Clean Google Bloat */
 iframe, .goog-te-banner-frame, .skiptranslate { display: none !important; }

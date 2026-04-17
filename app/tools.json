@@ -2,57 +2,61 @@
   {
     "slug": "chatgpt",
     "name": "ChatGPT",
-    "desc": "The world's most advanced AI for chatting, writing, and coding assistance.",
     "category": "Productivity",
-    "link": "https://openai.com/chatgpt"
-  },
-  {
-    "slug": "midjourney",
-    "name": "Midjourney",
-    "desc": "An ultra-high quality AI image generator for digital artists and designers.",
-    "category": "Design",
-    "link": "https://www.midjourney.com"
-  },
-  {
-    "slug": "canva-ai",
-    "name": "Canva Magic Studio",
-    "desc": "Everything you need to create professional designs with AI power.",
-    "category": "Design",
-    "link": "https://www.canva.com"
-  },
-  {
-    "slug": "elevenlabs",
-    "name": "ElevenLabs",
-    "desc": "The most realistic AI voice generator and text-to-speech tool.",
-    "category": "Audio",
-    "link": "https://elevenlabs.io"
+    "desc": "The gold standard for AI conversation, coding, and problem-solving.",
+    "longDesc": "ChatGPT remains the most used AI tool worldwide. For professionals in the US and UK, it is the primary assistant for drafting emails, debugging complex code, and brainstorming business strategies.",
+    "link": "https://openai.com/chatgpt",
+    "affiliateLink": "https://openai.com/chatgpt",
+    "features": ["Advanced Logic", "Custom GPTs", "DALL-E Integration"]
   },
   {
     "slug": "jasper",
     "name": "Jasper AI",
-    "desc": "Professional AI copywriter for business marketing and blog posts.",
     "category": "Marketing",
-    "link": "https://www.jasper.ai"
+    "desc": "The best AI writer for professional marketing and brand consistency.",
+    "longDesc": "Jasper is the top choice for digital agencies in the US. It specializes in creating high-converting marketing copy while maintaining a consistent brand voice for SEO blog posts.",
+    "link": "https://www.jasper.ai",
+    "affiliateLink": "PASTE_YOUR_JASPER_LINK_HERE",
+    "features": ["Brand Voice", "SEO Mode", "Team Collaboration"]
   },
   {
-    "slug": "runway-gen2",
-    "name": "Runway Gen-2",
-    "desc": "Create stunning videos from simple text prompts using AI.",
-    "category": "Video",
-    "link": "https://runwayml.com"
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "category": "Design",
+    "desc": "Leading AI for ultra-realistic image generation and digital art.",
+    "longDesc": "When it comes to high-end visual content, Midjourney is the undisputed leader. It is widely used by designers in London and New York to create photorealistic textures and concepts.",
+    "link": "https://www.midjourney.com",
+    "affiliateLink": "https://www.midjourney.com",
+    "features": ["Photorealistic Quality", "Style Reference", "Creative Community"]
   },
   {
-    "slug": "notion-ai",
-    "name": "Notion AI",
-    "desc": "Supercharge your notes and docs with built-in AI intelligence.",
-    "category": "Productivity",
-    "link": "https://www.notion.so/product/ai"
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "Audio",
+    "desc": "Industry-leading AI for realistic voice synthesis and cloning.",
+    "longDesc": "ElevenLabs provides the most human-like AI voices in the world. It is the go-to tool for YouTubers and podcasters in the UK who need professional narration and emotional depth.",
+    "link": "https://elevenlabs.io",
+    "affiliateLink": "PASTE_YOUR_ELEVENLABS_LINK_HERE",
+    "features": ["Voice Cloning", "Multi-language Support", "Speech-to-Speech"]
   },
   {
     "slug": "perplexity",
     "name": "Perplexity AI",
-    "desc": "An AI-powered search engine that gives direct answers with sources.",
     "category": "Search",
-    "link": "https://www.perplexity.ai"
+    "desc": "The future of search engines: AI that cites real-time sources.",
+    "longDesc": "Perplexity is rapidly replacing traditional search for researchers in the US. It provides direct answers with citations, making it the most trusted tool for fact-checking.",
+    "link": "https://www.perplexity.ai",
+    "affiliateLink": "PASTE_YOUR_PERPLEXITY_LINK_HERE",
+    "features": ["Real-time Citations", "Pro Search Mode", "File Analysis"]
+  },
+  {
+    "slug": "canva-ai",
+    "name": "Canva Magic Studio",
+    "category": "Design",
+    "desc": "All-in-one AI design suite for presentations, social media, and video.",
+    "longDesc": "Canva's Magic Studio brings AI-powered design to everyone. It allows professionals to generate layouts, remove backgrounds, and edit videos instantly, making it a staple for US small businesses.",
+    "link": "https://www.canva.com",
+    "affiliateLink": "PASTE_YOUR_CANVA_LINK_HERE",
+    "features": ["Magic Edit", "Text to Image", "AI Presentation Maker"]
   }
 ]
