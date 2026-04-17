@@ -70,10 +70,25 @@ export default async function ToolDetail({ params }: PageProps) {
 
         <article className="prose prose-slate dark:prose-invert max-w-none">
           <div className="bg-[var(--card-bg)] border border-[var(--border-ui)] p-8 md:p-12 rounded-[2.5rem] mb-12 shadow-sm">
-            <h3 className="text-2xl font-bold mb-6 text-[var(--text-main)]">Expert Evaluation</h3>
-            <p className="text-[var(--text-muted)] leading-loose text-lg whitespace-pre-wrap">
-              {tool.longDesc}
-            </p>
+            <h3 className="text-2xl font-bold mb-6 text-[var(--text-main)] hidden">Expert Evaluation</h3>
+            <div className="text-[var(--text-muted)] leading-loose text-lg">
+              {tool.longDesc.split('\n').map((line, i) => {
+                if (line.startsWith('### ')) {
+                  return <h3 key={i} className="text-2xl font-bold mt-10 mb-4 text-[var(--text-main)]">{line.replace('### ', '')}</h3>;
+                }
+                if (line.startsWith('- **')) {
+                  const parts = line.split('**:');
+                  return (
+                    <li key={i} className="ml-4 mb-2 list-disc">
+                      <strong className="text-[var(--text-main)]">{parts[0].replace('- **', '')}:</strong>
+                      {parts[1]}
+                    </li>
+                  );
+                }
+                if (line.trim() === '') return <br key={i} />;
+                return <p key={i} className="mb-4">{line}</p>;
+              })}
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">

@@ -2,27 +2,29 @@
 
 :root {
   /* Premium Slate & Blue Palette */
-  --bg-app: #ffffff;
-  --bg-nav: rgba(255, 255, 255, 0.8);
+  --bg-app: transparent;
+  --bg-nav: rgba(255, 255, 255, 0.7);
+  --bg-page: #ffffff;
   --text-main: #0f172a;    /* Slate 900 */
   --text-muted: #475569;   /* Slate 600 */
-  --border-ui: #f1f5f9;    /* Slate 100 */
+  --border-ui: rgba(15, 23, 42, 0.05);
   --accent-primary: #2563eb;
   --accent-secondary: #0ea5e9;
-  --card-bg: #ffffff;
-  --card-hover: #f8fafc;
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --card-hover: rgba(255, 255, 255, 0.95);
 }
 
 .dark {
-  --bg-app: #020617;       /* Slate 950 */
-  --bg-nav: rgba(2, 6, 23, 0.8);
+  --bg-app: transparent;
+  --bg-nav: rgba(2, 6, 23, 0.7);
+  --bg-page: #020617;
   --text-main: #f8fafc;    /* Slate 50 */
   --text-muted: #94a3b8;   /* Slate 400 */
-  --border-ui: #1e293b;    /* Slate 800 */
+  --border-ui: rgba(248, 250, 252, 0.05);
   --accent-primary: #3b82f6;
   --accent-secondary: #38bdf8;
-  --card-bg: #0f172a;      /* Slate 900 */
-  --card-hover: #1e293b;
+  --card-bg: rgba(15, 23, 42, 0.6);
+  --card-hover: rgba(30, 41, 59, 0.8);
 }
 
 @layer base {
@@ -51,4 +53,27 @@ body {
 
 .card-transition {
   @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-500/10;
+}
+
+/* Dynamic Background Animations */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes drift {
+  from { transform: translateX(-20%); }
+  to { transform: translateX(120%); }
+}
+
+.star {
+  @apply absolute rounded-full bg-white;
+  animation: twinkle var(--duration) ease-in-out infinite;
+  animation-delay: var(--delay);
+}
+
+.cloud {
+  @apply absolute rounded-full bg-white/60 blur-3xl;
+  animation: drift var(--duration) linear infinite;
+  animation-delay: var(--delay);
 }
