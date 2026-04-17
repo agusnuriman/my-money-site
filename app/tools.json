@@ -4,7 +4,7 @@
     "name": "ElevenLabs",
     "description": "The world's most advanced AI audio platform.",
     "longDesc": "ElevenLabs provides the most realistic, versatile, and context-aware AI audio tools for creators and publishers to generate lifelike speech in any language.",
-    "link": "https://try.elevenlabs.io/tm32rs6v4i80",
+    "affiliateLink": "https://try.elevenlabs.io/tm32rs6v4i80",
     "category": "Voice AI",
     "features": ["Text to Speech", "Voice Cloning", "Speech to Speech", "AI Dubbing"]
   },
@@ -13,7 +13,7 @@
     "name": "Jasper",
     "description": "Best AI writing assistant for enterprise teams.",
     "longDesc": "Jasper is the generative AI platform for business that helps your team create content tailored to your brand 10x faster wherever you work online.",
-    "link": "https://www.jasper.ai/",
+    "affiliateLink": "https://www.jasper.ai/",
     "category": "Writing",
     "features": ["Brand Voice", "Campaign Generation", "SEO Optimization", "Content Templates"]
   },
@@ -22,7 +22,7 @@
     "name": "Canva Magic Studio",
     "description": "All-in-one AI design tool for everyone.",
     "longDesc": "Canva Magic Studio brings together the best AI-powered design tools to help you create stunning visual content, presentations, and videos in seconds.",
-    "link": "https://www.canva.com/",
+    "affiliateLink": "https://www.canva.com/",
     "category": "Design",
     "features": ["Magic Design", "Text to Image", "Magic Edit", "Instant Presentations"]
   },
@@ -31,7 +31,7 @@
     "name": "Perplexity AI",
     "description": "AI-powered search engine with real-time answers.",
     "longDesc": "Perplexity AI is an answer engine that delivers accurate, trusted, and real-time answers to any question with cited sources.",
-    "link": "https://www.perplexity.ai/",
+    "affiliateLink": "https://www.perplexity.ai/",
     "category": "Search",
     "features": ["Source Citation", "Pro Search", "File Analysis", "Copilot Mode"]
   },
@@ -40,7 +40,7 @@
     "name": "Midjourney",
     "description": "The most creative AI image generator.",
     "longDesc": "Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species through high-quality AI art.",
-    "link": "https://www.midjourney.com/",
+    "affiliateLink": "https://www.midjourney.com/",
     "category": "Art",
     "features": ["High-Resolution Art", "Style Tuning", "Vary Region", "Zoom Out"]
   },
@@ -49,7 +49,7 @@
     "name": "ChatGPT",
     "description": "The most popular and versatile AI chatbot.",
     "longDesc": "ChatGPT by OpenAI is a powerful conversational AI that can help with writing, coding, learning, and complex problem-solving across various domains.",
-    "link": "https://chatgpt.com/",
+    "affiliateLink": "https://chatgpt.com/",
     "category": "Chatbot",
     "features": ["Data Analysis", "Image Generation (DALL-E)", "Custom GPTs", "Voice Mode"]
   },
@@ -58,7 +58,7 @@
     "name": "Luma Dream Machine",
     "description": "Next-gen AI video generator from text and images.",
     "longDesc": "Dream Machine is a highly capable AI model that makes high-quality, realistic videos fast from text instructions and images.",
-    "link": "https://lumalabs.ai/dream-machine",
+    "affiliateLink": "https://lumalabs.ai/dream-machine",
     "category": "Video AI",
     "features": ["Cinematic Motion", "Text-to-Video", "Image-to-Video", "High Realism"]
   },
@@ -67,7 +67,7 @@
     "name": "Grammarly AI",
     "description": "Advanced AI writing partner for clarity and tone.",
     "longDesc": "Grammarly's AI-powered writing assistant helps you communicate with confidence and make your writing clear, concise, and professional.",
-    "link": "https://www.grammarly.com/",
+    "affiliateLink": "https://www.grammarly.com/",
     "category": "Writing",
     "features": ["Tone Detector", "Plagiarism Checker", "Style Suggestions", "Auto-Citation"]
   },
@@ -76,7 +76,7 @@
     "name": "Descript",
     "description": "AI video and podcast editor via text transcript.",
     "longDesc": "Descript is the only tool you need to write, record, transcribe, edit, collaborate, and share your videos and podcasts by editing text.",
-    "link": "https://www.descript.com/",
+    "affiliateLink": "https://www.descript.com/",
     "category": "Video AI",
     "features": ["Studio Sound", "Overdub", "Eye Contact Correction", "Green Screen"]
   },
@@ -85,7 +85,7 @@
     "name": "Notion AI",
     "description": "Integrate AI directly into your productivity workspace.",
     "longDesc": "Notion AI helps you work faster, write better, and think bigger, all within the notes and docs you use every day.",
-    "link": "https://www.notion.so/product/ai",
+    "affiliateLink": "https://www.notion.so/product/ai",
     "category": "Productivity",
     "features": ["Document Summarization", "Action Item Extraction", "Brainstorming Assistant", "Tone Shifter"]
   }
