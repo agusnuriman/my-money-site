@@ -2,70 +2,70 @@
   {
     "id": "eleven-labs",
     "name": "ElevenLabs",
-    "description": "The world's most advanced AI audio platform. Create high-quality lifelike voices for any content.",
+    "longDesc": "The world's most advanced AI audio platform. Create high-quality lifelike voices for any content.",
     "link": "https://try.elevenlabs.io/tm32rs6v4i80",
     "category": "Voice AI"
   },
   {
     "id": "jasper-ai",
     "name": "Jasper",
-    "description": "Best AI writing assistant for enterprise teams. Create high-quality blog posts, ads, and marketing emails.",
+    "longDesc": "Best AI writing assistant for enterprise teams. Create high-quality blog posts, ads, and marketing emails.",
     "link": "https://www.jasper.ai/",
     "category": "Writing"
   },
   {
     "id": "canva",
     "name": "Canva Magic Studio",
-    "description": "All-in-one AI design tool. Generate images, videos, and professional layouts with simple text prompts.",
+    "longDesc": "All-in-one AI design tool. Generate images, videos, and professional layouts with simple text prompts.",
     "link": "https://www.canva.com/",
     "category": "Design"
   },
   {
     "id": "perplexity",
     "name": "Perplexity AI",
-    "description": "AI-powered search engine that provides accurate, real-time answers with cited sources.",
+    "longDesc": "AI-powered search engine that provides accurate, real-time answers with cited sources.",
     "link": "https://www.perplexity.ai/",
     "category": "Search"
   },
   {
     "id": "midjourney",
     "name": "Midjourney",
-    "description": "The most creative AI image generator. Produce stunning, award-winning art and realistic photography.",
+    "longDesc": "The most creative AI image generator. Produce stunning, award-winning art and realistic photography.",
     "link": "https://www.midjourney.com/",
     "category": "Art"
   },
   {
     "id": "chatgpt",
     "name": "ChatGPT",
-    "description": "The most popular AI chatbot. Expert in coding, brainstorming, and complex problem-solving.",
+    "longDesc": "The most popular AI chatbot. Expert in coding, brainstorming, and complex problem-solving.",
     "link": "https://chatgpt.com/",
     "category": "Chatbot"
   },
   {
     "id": "luma-dream-machine",
     "name": "Luma Dream Machine",
-    "description": "Next-generation AI video generator. Create high-quality 3D cinematic videos from text and images.",
+    "longDesc": "Next-generation AI video generator. Create high-quality 3D cinematic videos from text and images.",
     "link": "https://lumalabs.ai/dream-machine",
     "category": "Video AI"
   },
   {
     "id": "grammarly",
     "name": "Grammarly AI",
-    "description": "Advanced AI writing partner. Improves your tone, clarity, and grammar across all platforms.",
+    "longDesc": "Advanced AI writing partner. Improves your tone, clarity, and grammar across all platforms.",
     "link": "https://www.grammarly.com/",
     "category": "Writing"
   },
   {
     "id": "descript",
     "name": "Descript",
-    "description": "Revolutionary AI video and podcast editor. Edit your video by simply editing the text transcript.",
+    "longDesc": "Revolutionary AI video and podcast editor. Edit your video by simply editing the text transcript.",
     "link": "https://www.descript.com/",
     "category": "Video AI"
   },
   {
     "id": "notion-ai",
     "name": "Notion AI",
-    "description": "Integrate AI directly into your workspace to summarize notes, write drafts, and organize tasks.",
+    "longDesc": "Integrate AI directly into your workspace to summarize notes, write drafts, and organize tasks.",
     "link": "https://www.notion.so/product/ai",
     "category": "Productivity"
   }
