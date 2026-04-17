@@ -1,62 +1,72 @@
 [
   {
-    "slug": "chatgpt",
-    "name": "ChatGPT",
-    "category": "Productivity",
-    "desc": "The gold standard for AI conversation, coding, and problem-solving.",
-    "longDesc": "ChatGPT remains the most used AI tool worldwide. For professionals in the US and UK, it is the primary assistant for drafting emails, debugging complex code, and brainstorming business strategies.",
-    "link": "https://openai.com/chatgpt",
-    "affiliateLink": "https://openai.com/chatgpt",
-    "features": ["Advanced Logic", "Custom GPTs", "DALL-E Integration"]
-  },
-  {
-    "slug": "jasper",
-    "name": "Jasper AI",
-    "category": "Marketing",
-    "desc": "The best AI writer for professional marketing and brand consistency.",
-    "longDesc": "Jasper is the top choice for digital agencies in the US. It specializes in creating high-converting marketing copy while maintaining a consistent brand voice for SEO blog posts.",
-    "link": "https://www.jasper.ai",
-    "affiliateLink": "PASTE_YOUR_JASPER_LINK_HERE",
-    "features": ["Brand Voice", "SEO Mode", "Team Collaboration"]
-  },
-  {
-    "slug": "midjourney",
-    "name": "Midjourney",
-    "category": "Design",
-    "desc": "Leading AI for ultra-realistic image generation and digital art.",
-    "longDesc": "When it comes to high-end visual content, Midjourney is the undisputed leader. It is widely used by designers in London and New York to create photorealistic textures and concepts.",
-    "link": "https://www.midjourney.com",
-    "affiliateLink": "https://www.midjourney.com",
-    "features": ["Photorealistic Quality", "Style Reference", "Creative Community"]
-  },
-  {
-    "slug": "elevenlabs",
+    "id": "eleven-labs",
     "name": "ElevenLabs",
-    "category": "Audio",
-    "desc": "Industry-leading AI for realistic voice synthesis and cloning.",
-    "longDesc": "ElevenLabs provides the most human-like AI voices in the world. It is the go-to tool for YouTubers and podcasters in the UK who need professional narration and emotional depth.",
-    "link": "https://elevenlabs.io",
-    "affiliateLink": "PASTE_YOUR_ELEVENLABS_LINK_HERE",
-    "features": ["Voice Cloning", "Multi-language Support", "Speech-to-Speech"]
+    "description": "The world's most advanced AI audio platform. Create high-quality lifelike voices for any content.",
+    "link": "https://try.elevenlabs.io/tm32rs6v4i80",
+    "category": "Voice AI"
   },
   {
-    "slug": "perplexity",
-    "name": "Perplexity AI",
-    "category": "Search",
-    "desc": "The future of search engines: AI that cites real-time sources.",
-    "longDesc": "Perplexity is rapidly replacing traditional search for researchers in the US. It provides direct answers with citations, making it the most trusted tool for fact-checking.",
-    "link": "https://www.perplexity.ai",
-    "affiliateLink": "PASTE_YOUR_PERPLEXITY_LINK_HERE",
-    "features": ["Real-time Citations", "Pro Search Mode", "File Analysis"]
+    "id": "jasper-ai",
+    "name": "Jasper",
+    "description": "Best AI writing assistant for enterprise teams. Create high-quality blog posts, ads, and marketing emails.",
+    "link": "https://www.jasper.ai/",
+    "category": "Writing"
   },
   {
-    "slug": "canva-ai",
+    "id": "canva",
     "name": "Canva Magic Studio",
-    "category": "Design",
-    "desc": "All-in-one AI design suite for presentations, social media, and video.",
-    "longDesc": "Canva's Magic Studio brings AI-powered design to everyone. It allows professionals to generate layouts, remove backgrounds, and edit videos instantly, making it a staple for US small businesses.",
-    "link": "https://www.canva.com",
-    "affiliateLink": "PASTE_YOUR_CANVA_LINK_HERE",
-    "features": ["Magic Edit", "Text to Image", "AI Presentation Maker"]
+    "description": "All-in-one AI design tool. Generate images, videos, and professional layouts with simple text prompts.",
+    "link": "https://www.canva.com/",
+    "category": "Design"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "description": "AI-powered search engine that provides accurate, real-time answers with cited sources.",
+    "link": "https://www.perplexity.ai/",
+    "category": "Search"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "description": "The most creative AI image generator. Produce stunning, award-winning art and realistic photography.",
+    "link": "https://www.midjourney.com/",
+    "category": "Art"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "The most popular AI chatbot. Expert in coding, brainstorming, and complex problem-solving.",
+    "link": "https://chatgpt.com/",
+    "category": "Chatbot"
+  },
+  {
+    "id": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "description": "Next-generation AI video generator. Create high-quality 3D cinematic videos from text and images.",
+    "link": "https://lumalabs.ai/dream-machine",
+    "category": "Video AI"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly AI",
+    "description": "Advanced AI writing partner. Improves your tone, clarity, and grammar across all platforms.",
+    "link": "https://www.grammarly.com/",
+    "category": "Writing"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "description": "Revolutionary AI video and podcast editor. Edit your video by simply editing the text transcript.",
+    "link": "https://www.descript.com/",
+    "category": "Video AI"
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "description": "Integrate AI directly into your workspace to summarize notes, write drafts, and organize tasks.",
+    "link": "https://www.notion.so/product/ai",
+    "category": "Productivity"
   }
 ]
