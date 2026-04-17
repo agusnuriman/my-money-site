@@ -62,26 +62,28 @@ export default function Home() {
       {/* DIRECTORY GRID */}
       <main className="max-w-6xl mx-auto px-4 pb-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {toolsData.map((tool: any) => (
-            <div 
-              key={tool.slug} 
-              className="group p-8 rounded-[2.5rem] border border-[var(--border-ui)] bg-[var(--bg-app)] hover:border-blue-500 hover:shadow-2xl transition-all duration-500"
-            >
-              <span className="px-3 py-1 bg-blue-50 dark:bg-blue-900/20 text-blue-600 text-[10px] font-black rounded-full uppercase tracking-widest">
-                {tool.category}
-              </span>
+          {toolsData.map((tool) => (
+            <div key={tool.id} className="group p-8 rounded-3xl border border-[var(--border-ui)] bg-white dark:bg-gray-900/50 hover:border-blue-500/50 transition-all duration-500 shadow-sm hover:shadow-2xl hover:shadow-blue-500/10 flex flex-col h-full">
+              <div className="flex justify-between items-start mb-6">
+                <span className="px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-[10px] font-black tracking-widest uppercase">
+                  {tool.category}
+                </span>
+              </div>
+              
               <h2 className="text-2xl font-bold mt-4 mb-3">{tool.name}</h2>
+              
               <p className="text-[var(--text-muted)] text-sm mb-8 leading-relaxed line-clamp-2">
-                {tool.desc}
+                {tool.desc} {/* Menggunakan tool.desc dari JSON */}
               </p>
               
-              {/* pSEO REDIRECT TO DETAIL PAGE */}
-              <a 
-                href={`/tool/${tool.slug}`} 
-                className="block w-full text-center bg-gray-950 dark:bg-blue-600 text-white py-4 rounded-2xl font-bold text-sm tracking-wide hover:opacity-90 transition-all"
-              >
-                Access Review & Tracking
-              </a>
+              <div className="mt-auto">
+                <a 
+                  href={`/tool/${tool.slug}`} // Menggunakan tool.slug dari JSON
+                  className="block w-full text-center bg-gray-950 dark:bg-blue-600 text-white py-4 rounded-2xl font-bold text-sm tracking-wide hover:opacity-90 transition-all"
+                >
+                  Access Review & Tracking
+                </a>
+              </div>
             </div>
           ))}
         </div>

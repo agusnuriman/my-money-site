@@ -1,7 +1,9 @@
 [
   {
     "id": "eleven-labs",
+    "slug": "eleven-labs",
     "name": "ElevenLabs",
+    "desc": "The world's most advanced AI audio platform.",
     "description": "The world's most advanced AI audio platform.",
     "longDesc": "ElevenLabs provides the most realistic, versatile, and context-aware AI audio tools for creators and publishers to generate lifelike speech in any language.",
     "affiliateLink": "https://try.elevenlabs.io/tm32rs6v4i80",
@@ -10,7 +12,9 @@
   },
   {
     "id": "jasper-ai",
+    "slug": "jasper-ai",
     "name": "Jasper",
+    "desc": "Best AI writing assistant for enterprise teams.",
     "description": "Best AI writing assistant for enterprise teams.",
     "longDesc": "Jasper is the generative AI platform for business that helps your team create content tailored to your brand 10x faster wherever you work online.",
     "affiliateLink": "https://www.jasper.ai/",
@@ -19,7 +23,9 @@
   },
   {
     "id": "canva",
+    "slug": "canva",
     "name": "Canva Magic Studio",
+    "desc": "All-in-one AI design tool for everyone.",
     "description": "All-in-one AI design tool for everyone.",
     "longDesc": "Canva Magic Studio brings together the best AI-powered design tools to help you create stunning visual content, presentations, and videos in seconds.",
     "affiliateLink": "https://www.canva.com/",
@@ -28,7 +34,9 @@
   },
   {
     "id": "perplexity",
+    "slug": "perplexity",
     "name": "Perplexity AI",
+    "desc": "AI-powered search engine with real-time answers.",
     "description": "AI-powered search engine with real-time answers.",
     "longDesc": "Perplexity AI is an answer engine that delivers accurate, trusted, and real-time answers to any question with cited sources.",
     "affiliateLink": "https://www.perplexity.ai/",
@@ -37,7 +45,9 @@
   },
   {
     "id": "midjourney",
+    "slug": "midjourney",
     "name": "Midjourney",
+    "desc": "The most creative AI image generator.",
     "description": "The most creative AI image generator.",
     "longDesc": "Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species through high-quality AI art.",
     "affiliateLink": "https://www.midjourney.com/",
@@ -46,7 +56,9 @@
   },
   {
     "id": "chatgpt",
+    "slug": "chatgpt",
     "name": "ChatGPT",
+    "desc": "The most popular and versatile AI chatbot.",
     "description": "The most popular and versatile AI chatbot.",
     "longDesc": "ChatGPT by OpenAI is a powerful conversational AI that can help with writing, coding, learning, and complex problem-solving across various domains.",
     "affiliateLink": "https://chatgpt.com/",
@@ -55,7 +67,9 @@
   },
   {
     "id": "luma-dream-machine",
+    "slug": "luma-dream-machine",
     "name": "Luma Dream Machine",
+    "desc": "Next-gen AI video generator from text and images.",
     "description": "Next-gen AI video generator from text and images.",
     "longDesc": "Dream Machine is a highly capable AI model that makes high-quality, realistic videos fast from text instructions and images.",
     "affiliateLink": "https://lumalabs.ai/dream-machine",
@@ -64,7 +78,9 @@
   },
   {
     "id": "grammarly",
+    "slug": "grammarly",
     "name": "Grammarly AI",
+    "desc": "Advanced AI writing partner for clarity and tone.",
     "description": "Advanced AI writing partner for clarity and tone.",
     "longDesc": "Grammarly's AI-powered writing assistant helps you communicate with confidence and make your writing clear, concise, and professional.",
     "affiliateLink": "https://www.grammarly.com/",
@@ -73,7 +89,9 @@
   },
   {
     "id": "descript",
+    "slug": "descript",
     "name": "Descript",
+    "desc": "AI video and podcast editor via text transcript.",
     "description": "AI video and podcast editor via text transcript.",
     "longDesc": "Descript is the only tool you need to write, record, transcribe, edit, collaborate, and share your videos and podcasts by editing text.",
     "affiliateLink": "https://www.descript.com/",
@@ -82,7 +100,9 @@
   },
   {
     "id": "notion-ai",
+    "slug": "notion-ai",
     "name": "Notion AI",
+    "desc": "Integrate AI directly into your productivity workspace.",
     "description": "Integrate AI directly into your productivity workspace.",
     "longDesc": "Notion AI helps you work faster, write better, and think bigger, all within the notes and docs you use every day.",
     "affiliateLink": "https://www.notion.so/product/ai",
