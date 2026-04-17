@@ -2,71 +2,91 @@
   {
     "id": "eleven-labs",
     "name": "ElevenLabs",
-    "longDesc": "The world's most advanced AI audio platform. Create high-quality lifelike voices for any content.",
+    "description": "The world's most advanced AI audio platform.",
+    "longDesc": "ElevenLabs provides the most realistic, versatile, and context-aware AI audio tools for creators and publishers to generate lifelike speech in any language.",
     "link": "https://try.elevenlabs.io/tm32rs6v4i80",
-    "category": "Voice AI"
+    "category": "Voice AI",
+    "features": ["Text to Speech", "Voice Cloning", "Speech to Speech", "AI Dubbing"]
   },
   {
     "id": "jasper-ai",
     "name": "Jasper",
-    "longDesc": "Best AI writing assistant for enterprise teams. Create high-quality blog posts, ads, and marketing emails.",
+    "description": "Best AI writing assistant for enterprise teams.",
+    "longDesc": "Jasper is the generative AI platform for business that helps your team create content tailored to your brand 10x faster wherever you work online.",
     "link": "https://www.jasper.ai/",
-    "category": "Writing"
+    "category": "Writing",
+    "features": ["Brand Voice", "Campaign Generation", "SEO Optimization", "Content Templates"]
   },
   {
     "id": "canva",
     "name": "Canva Magic Studio",
-    "longDesc": "All-in-one AI design tool. Generate images, videos, and professional layouts with simple text prompts.",
+    "description": "All-in-one AI design tool for everyone.",
+    "longDesc": "Canva Magic Studio brings together the best AI-powered design tools to help you create stunning visual content, presentations, and videos in seconds.",
     "link": "https://www.canva.com/",
-    "category": "Design"
+    "category": "Design",
+    "features": ["Magic Design", "Text to Image", "Magic Edit", "Instant Presentations"]
   },
   {
     "id": "perplexity",
     "name": "Perplexity AI",
-    "longDesc": "AI-powered search engine that provides accurate, real-time answers with cited sources.",
+    "description": "AI-powered search engine with real-time answers.",
+    "longDesc": "Perplexity AI is an answer engine that delivers accurate, trusted, and real-time answers to any question with cited sources.",
     "link": "https://www.perplexity.ai/",
-    "category": "Search"
+    "category": "Search",
+    "features": ["Source Citation", "Pro Search", "File Analysis", "Copilot Mode"]
   },
   {
     "id": "midjourney",
     "name": "Midjourney",
-    "longDesc": "The most creative AI image generator. Produce stunning, award-winning art and realistic photography.",
+    "description": "The most creative AI image generator.",
+    "longDesc": "Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species through high-quality AI art.",
     "link": "https://www.midjourney.com/",
-    "category": "Art"
+    "category": "Art",
+    "features": ["High-Resolution Art", "Style Tuning", "Vary Region", "Zoom Out"]
   },
   {
     "id": "chatgpt",
     "name": "ChatGPT",
-    "longDesc": "The most popular AI chatbot. Expert in coding, brainstorming, and complex problem-solving.",
+    "description": "The most popular and versatile AI chatbot.",
+    "longDesc": "ChatGPT by OpenAI is a powerful conversational AI that can help with writing, coding, learning, and complex problem-solving across various domains.",
     "link": "https://chatgpt.com/",
-    "category": "Chatbot"
+    "category": "Chatbot",
+    "features": ["Data Analysis", "Image Generation (DALL-E)", "Custom GPTs", "Voice Mode"]
   },
   {
     "id": "luma-dream-machine",
     "name": "Luma Dream Machine",
-    "longDesc": "Next-generation AI video generator. Create high-quality 3D cinematic videos from text and images.",
+    "description": "Next-gen AI video generator from text and images.",
+    "longDesc": "Dream Machine is a highly capable AI model that makes high-quality, realistic videos fast from text instructions and images.",
     "link": "https://lumalabs.ai/dream-machine",
-    "category": "Video AI"
+    "category": "Video AI",
+    "features": ["Cinematic Motion", "Text-to-Video", "Image-to-Video", "High Realism"]
   },
   {
     "id": "grammarly",
     "name": "Grammarly AI",
-    "longDesc": "Advanced AI writing partner. Improves your tone, clarity, and grammar across all platforms.",
+    "description": "Advanced AI writing partner for clarity and tone.",
+    "longDesc": "Grammarly's AI-powered writing assistant helps you communicate with confidence and make your writing clear, concise, and professional.",
     "link": "https://www.grammarly.com/",
-    "category": "Writing"
+    "category": "Writing",
+    "features": ["Tone Detector", "Plagiarism Checker", "Style Suggestions", "Auto-Citation"]
   },
   {
     "id": "descript",
     "name": "Descript",
-    "longDesc": "Revolutionary AI video and podcast editor. Edit your video by simply editing the text transcript.",
+    "description": "AI video and podcast editor via text transcript.",
+    "longDesc": "Descript is the only tool you need to write, record, transcribe, edit, collaborate, and share your videos and podcasts by editing text.",
     "link": "https://www.descript.com/",
-    "category": "Video AI"
+    "category": "Video AI",
+    "features": ["Studio Sound", "Overdub", "Eye Contact Correction", "Green Screen"]
   },
   {
     "id": "notion-ai",
     "name": "Notion AI",
-    "longDesc": "Integrate AI directly into your workspace to summarize notes, write drafts, and organize tasks.",
+    "description": "Integrate AI directly into your productivity workspace.",
+    "longDesc": "Notion AI helps you work faster, write better, and think bigger, all within the notes and docs you use every day.",
     "link": "https://www.notion.so/product/ai",
-    "category": "Productivity"
+    "category": "Productivity",
+    "features": ["Document Summarization", "Action Item Extraction", "Brainstorming Assistant", "Tone Shifter"]
   }
 ]
