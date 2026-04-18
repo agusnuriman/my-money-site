@@ -106,6 +106,29 @@ export default async function ToolDetail({ params }: PageProps) {
                 ))}
               </ul>
             </div>
+
+            {tool.usageGuide && (
+              <div className="bg-gradient-to-br from-slate-50 to-blue-50 dark:from-white/5 dark:to-blue-500/5 p-8 rounded-3xl border border-blue-500/10">
+                <h3 className="text-xl font-bold mb-6 text-[var(--text-main)] flex items-center gap-2">
+                  <span className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs">GO</span>
+                  Pro Cheat Sheet
+                </h3>
+                <div className="text-sm space-y-4 text-[var(--text-muted)] leading-relaxed">
+                  {tool.usageGuide.split('\n').map((line, i) => {
+                    if (line.startsWith('### ')) return null; // Heading is already handled by GO icon
+                    if (line.match(/^\d+\./)) {
+                      return (
+                        <div key={i} className="flex gap-3">
+                          <span className="font-black text-blue-600">{line.split('.')[0]}.</span>
+                          <span><strong className="text-[var(--text-main)]">{line.split('**')[1]}</strong>{line.split('**')[2]}</span>
+                        </div>
+                      );
+                    }
+                    return <p key={i}>{line}</p>;
+                  })}
+                </div>
+              </div>
+            )}
           </div>
         </article>
 
@@ -119,15 +142,16 @@ export default async function ToolDetail({ params }: PageProps) {
               Join thousands of professionals using {tool.name} to stay ahead in the AI era.
             </p>
             <a 
-              href={tool.affiliateLink} 
+              href={`/go/${tool.slug}`} 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-white text-blue-600 px-12 py-5 rounded-2xl font-black text-xl hover:scale-105 transition-all shadow-xl active:scale-95"
             >
               Start Using {tool.name} →
             </a>
-            <p className="mt-8 text-[10px] opacity-60 font-bold uppercase tracking-widest">
-              * Official Affiliate Partner Link
+            <p className="mt-8 text-[10px] opacity-60 font-bold uppercase tracking-widest flex items-center justify-center gap-2">
+              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+              Official Verified Partner Link
             </p>
           </div>
         </section>

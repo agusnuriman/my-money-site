@@ -8,7 +8,47 @@
     "longDesc": "### Deep Dive Analysis\n\nElevenLabs has cemented its position as the undisputed leader in generative voice AI. Unlike legacy text-to-speech engines that sound robotic and monotonous, ElevenLabs leverages a proprietary deep learning model that understands context, emotion, and pacing. This results in hyper-realistic voice generation that is practically indistinguishable from a human voice actor.\n\n### Key Features Analysis\n- **Contextual Awareness**: The AI adjusts intonation based on the emotional weight of the text.\n- **Voice Cloning Pro**: Enterprise users can create an exact digital replica of a spokesperson's voice with just a few minutes of clean audio.\n- **Multilingual Dubbing**: Seamlessly translate and dub video content across 29 languages while preserving the original speaker's unique voice characteristics.\n\n### Target Audience\nPerfect for game developers, audiobook publishers, YouTube creators, and enterprise marketing teams looking to scale localization without exorbitant studio costs.\n\n### Why We Recommend It\nIn our testing, ElevenLabs consistently outperformed competitors in latency and realism. The API is robust enough for enterprise deployment, making it our top recommendation for production-grade audio generation.",
     "affiliateLink": "https://try.elevenlabs.io/tm32rs6v4i80",
     "category": "Voice AI",
-    "features": ["Text to Speech", "Voice Cloning", "Speech to Speech", "AI Dubbing"]
+    "features": ["Text to Speech", "Voice Cloning", "Speech to Speech", "AI Dubbing"],
+    "usageGuide": "### Pro Usage Guide\n1. **Upload High-Quality Samples**: For Voice Cloning, use 1-2 minutes of clean audio without background music or noise.\n2. **Leverage Stability Settings**: Adjust the 'Stability' slider higher for formal narration and lower for dynamic, emotional expression.\n3. **Optimize Prompt Punctuation**: Use precise punctuation (periods, commas, question marks) as ElevenLabs' AI is highly sensitive to sentence context.",
+    "isEditorChoice": true
+  },
+  {
+    "id": "synthesia",
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "desc": "The #1 AI Video Generation platform for business.",
+    "description": "The #1 AI Video Generation platform for business.",
+    "longDesc": "### Deep Dive Analysis\n\nSynthesia is the gold standard for enterprise video creation. It allows companies to create professional videos with AI avatars in over 120 languages, eliminating the need for cameras, microphones, or actors. For businesses looking to scale their training, sales, and marketing videos, Synthesia is the most powerful tool available.\n\n### Key Features Analysis\n- **140+ AI Avatars**: Choose from a diverse range of hyper-realistic digital twins.\n- **Custom Avatars**: Create an AI version of yourself or your company spokesperson.\n- **Video Assistant**: Transform existing text, PowerPoints, or PDFs into full-blown video presentations instantly.\n\n### Target Audience\nCorporate L&D teams, sales departments, and educational content creators who need high-volume, professional video output.\n\n### Why We Recommend It\nSynthesia's avatar quality is unmatched in the industry. The time and cost savings for corporate training programs are astronomical, making it a high-value investment for any enterprise.",
+    "affiliateLink": "https://www.synthesia.io/",
+    "category": "Video AI",
+    "features": ["AI Avatars", "Video Synthesis", "Multi-language Support", "Text-to-Video"],
+    "usageGuide": "### Pro Usage Guide\n1. **Use the 'Tone' Toggle**: Adjust the avatar's delivery style to match the seriousness or excitement of your script.\n2. **Leverage Gestures**: Use markers to trigger specific movements like head nods or raised eyebrows for a more human feel.\n3. **Integrate with LMS**: Export your videos in SCORM format to seamlessly integrate with your company's Learning Management System.",
+    "isEditorChoice": true
+  },
+  {
+    "id": "surfer-seo",
+    "slug": "surfer-seo",
+    "name": "Surfer SEO",
+    "desc": "Boost your organic traffic with AI-driven SEO analysis.",
+    "description": "Boost your organic traffic with AI-driven SEO analysis.",
+    "longDesc": "### Deep Dive Analysis\n\nSurfer SEO takes the guesswork out of content ranking. By analyzing top-performing pages for any given keyword, Surfer provides a data-backed blueprint for your content. It doesn't just tell you to write; it tells you exactly which keywords to include, how many images to use, and what length your article should be to hit the first page of Google.\n\n### Key Features Analysis\n- **Content Editor**: Real-time optimization feedback as you write, based on current Google rankings.\n- **Keyword Research**: Find high-volume, low-competition keywords in your niche.\n- **SEO Audit**: Analyze existing pages to identify why they aren't ranking and how to fix them.\n\n### Target Audience\nBloggers, SEO agencies, niche site owners, and digital marketers focused on organic growth.\n\n### Why We Recommend It\nSurfer is the industry standard for content optimization. Its integration with Google Docs and WordPress makes it incredibly easy to use, and its results are consistently proven by SEO professionals worldwide.",
+    "affiliateLink": "https://surferseo.com/",
+    "category": "SEO",
+    "features": ["Content Optimization", "Keyword Research", "SERP Analyzer", "SEO Audit"],
+    "usageGuide": "### Pro Usage Guide\n1. **Aim for 70+ Score**: Don't just stuff keywords; aim for a natural flow that achieves a Surfer score of at least 70 for the best ranking chance.\n2. **Use the 'Outline' Builder**: Let Surfer generate your H1-H3 headings based on competitor analysis to ensure topical authority.\n3. **Analyze Multi-Keyword SERPs**: Group related keywords into one Surfer project to rank for dozens of long-tail variations simultaneously.",
+    "isEditorChoice": true
+  },
+  {
+    "id": "adcreative-ai",
+    "slug": "adcreative-ai",
+    "name": "AdCreative.ai",
+    "desc": "Generate conversion-focused ad creatives in seconds.",
+    "description": "Generate conversion-focused ad creatives in seconds.",
+    "longDesc": "### Deep Dive Analysis\n\nAdCreative.ai is an essential tool for digital advertisers. It uses one of the largest databases of high-converting ad creatives to generate visuals that are scientifically proven to increase click-through rates (CTR). For E-commerce owners and agencies spending money on Meta or Google Ads, this tool is an absolute ROI multiplier.\n\n### Key Features Analysis\n- **AI Ad Generation**: Create hundreds of ad variations in seconds based on your brand colors and logo.\n- **Conversion Scoring**: The AI predicts the performance of each creative before you even run the ad.\n- **Social Post Generator**: Automatically create engaging content for Instagram and Facebook that matches your ad style.\n\n### Target Audience\nE-commerce entrepreneurs, PPC specialists, and marketing agencies managing high ad spend.\n\n### Why We Recommend It\nThe speed at which you can test new creative angles is unparalleled. In a world where 'creative is the new targeting', AdCreative.ai gives you a massive competitive edge.",
+    "affiliateLink": "https://www.adcreative.ai/",
+    "category": "Advertising",
+    "features": ["Ad Generation", "Conversion Scoring", "Social Media Graphics", "Brand Consistency"],
+    "usageGuide": "### Pro Usage Guide\n1. **Connect Your Ad Accounts**: Link your Meta or Google Ads account so the AI can learn from your specific historical performance data.\n2. **Utilize 'Creative Insights'**: Review the weekly reports to see which specific colors or layouts are driving the most conversions for your niche.\n3. **Batch Generate for Testing**: Generate at least 50 variations for every campaign and let your ad platform's algorithm find the winner based on the AI's scoring."
   },
   {
     "id": "jasper-ai",
@@ -19,18 +59,33 @@
     "longDesc": "### Deep Dive Analysis\n\nWhile ChatGPT serves as a general-purpose tool, Jasper AI is engineered specifically for corporate marketing and content creation. Jasper is fundamentally a business-first platform that allows entire marketing teams to scale content production while maintaining strict brand guidelines. It integrates seamlessly into existing workflows and offers an enterprise-grade security architecture that protects proprietary company data.\n\n### Key Features Analysis\n- **Brand Voice Configuration**: Train the AI on your specific company tone, style guides, and past successful campaigns to ensure absolute consistency.\n- **Campaign Generation**: Create end-to-end marketing campaigns (emails, landing pages, ads) from a single brief.\n- **Jasper Everywhere Extension**: Bring the AI directly into your CMS, email client, and social media dashboards.\n\n### Target Audience\nMid-market to Enterprise marketing teams, content agencies, and copywriters who need to scale output without sacrificing brand identity.\n\n### Why We Recommend It\nThe ROI for Jasper becomes immediately apparent when deployed across a team. The ability to lock in a \"Brand Voice\" eliminates the unpredictable outputs often associated with standard LLMs, making it the safest and most efficient choice for corporate environments.",
     "affiliateLink": "https://www.jasper.ai/",
     "category": "Writing",
-    "features": ["Brand Voice", "Campaign Generation", "SEO Optimization", "Content Templates"]
+    "features": ["Brand Voice", "Campaign Generation", "SEO Optimization", "Content Templates"],
+    "usageGuide": "### Pro Usage Guide\n1. **Define Your Brand Voice**: Upload examples of your best company writing so Jasper can mimic your style precisely.\n2. **Utilize Recipes**: Use 'Jasper Recipes' for proven workflows (e.g., writing a blog post in under 5 minutes).\n3. **Real-time Plagiarism Checks**: Always use the integrated Copyscape feature within Jasper to ensure 100% original content.",
+    "isEditorChoice": true
   },
   {
-    "id": "canva",
-    "slug": "canva",
-    "name": "Canva Magic Studio",
-    "desc": "All-in-one AI design tool for everyone.",
-    "description": "All-in-one AI design tool for everyone.",
-    "longDesc": "### Deep Dive Analysis\n\nCanva has successfully democratized professional design, and their new Magic Studio suite injects powerful AI directly into that accessible ecosystem. Instead of forcing users to learn complex prompt engineering, Canva hides the complexity behind intuitive UI buttons. It bridges the gap between text-based ideation and final visual execution flawlessly.\n\n### Key Features Analysis\n- **Magic Design**: Instantly generate fully designed, on-brand templates (presentations, social posts) from a simple text prompt.\n- **Magic Switch**: Automatically translate designs into different languages or reformat a presentation into a blog post document.\n- **AI Image Generation**: Integrated text-to-image capabilities powered by top-tier models directly on the canvas.\n\n### Target Audience\nSmall business owners, social media managers, educators, and enterprise teams needing rapid visual content creation without a dedicated graphic designer.\n\n### Why We Recommend It\nCanva Magic Studio reduces friction. While dedicated AI art generators might offer more control, Canva offers workflow efficiency. It’s the ultimate \"get it done\" tool for modern digital professionals.",
-    "affiliateLink": "https://www.canva.com/",
+    "id": "claude-ai",
+    "slug": "claude-ai",
+    "name": "Claude AI",
+    "desc": "Advanced AI for coding, writing, and complex reasoning.",
+    "description": "Advanced AI for coding, writing, and complex reasoning.",
+    "longDesc": "### Deep Dive Analysis\n\nClaude, developed by Anthropic, is a primary competitor to ChatGPT known for its safety and exceptional reasoning capabilities. Claude 3.5 Sonnet is often considered superior for coding and generating writing that sounds more 'human' than other models.\n\n### Key Features Analysis\n- **Artifacts Interface**: Directly displays code results, websites, or diagrams on the side of the chat screen.\n- **Huge Context Window**: Capable of reading thousands of pages of documents at once without losing detail.\n- **Vision Capabilities**: Highly accurate in analyzing images, charts, and technical tables.\n\n### Target Audience\nEngineering/IT students, researchers, professional content writers, and software developers.\n\n### Why We Recommend It\nClaude rarely hallucinates and has a very elegant writing style. It is perfectly suited for complex academic and professional tasks.",
+    "affiliateLink": "https://claude.ai/",
+    "category": "Chatbot",
+    "features": ["Artifacts", "Long Context", "Coding Assistant", "Safe AI"],
+    "usageGuide": "### Pro Usage Guide\n1. **Use Artifacts Mode**: When requesting code or diagrams, ensure Artifacts mode is active for real-time previews.\n2. **Provide Reference Documents**: Upload your lecture PDFs and ask Claude to summarize key points likely to appear in exams.\n3. **'Chain-of-Thought' Prompting**: Ask Claude to 'think step-by-step' before providing the final answer for maximum logical accuracy."
+  },
+  {
+    "id": "gamma-app",
+    "slug": "gamma-app",
+    "name": "Gamma.app",
+    "desc": "Create stunning presentations, docs, and sites in seconds.",
+    "description": "Create stunning presentations, docs, and sites in seconds.",
+    "longDesc": "### Deep Dive Analysis\n\nGamma is a revolution in media presentation creation. While PowerPoint used to take hours, Gamma allows you to create beautiful, interactive, and modern slides with just a single line of text prompt. It's a new favorite among students and startups alike.\n\n### Key Features Analysis\n- **AI Presentation Generator**: Simply type a topic, and Gamma will draft the content structure and design.\n- **Interactive Embeds**: Insert videos, charts, or live apps directly into your slides.\n- **Responsive Design**: Presentations automatically look great on mobile and desktop.\n\n### Target Audience\nStudents, Business Development professionals, and anyone needing rapid visual content creation.\n\n### Why We Recommend It\nThe production speed is unmatched. The final result looks like a modern website, not just a boring static slide.",
+    "affiliateLink": "https://gamma.app/",
     "category": "Design",
-    "features": ["Magic Design", "Text to Image", "Magic Edit", "Instant Presentations"]
+    "features": ["AI Slide Generator", "One-click Styling", "Web-to-Presentation", "Analytics"],
+    "usageGuide": "### Pro Usage Guide\n1. **Edit via AI Chat**: If the design isn't quite right, use the AI button to request specific changes (e.g., 'make it more formal').\n2. **Import from Outlines**: Don't let the AI work in a vacuum; input your assignment outline for better academic accuracy.\n3. **Use Custom Themes**: Align colors and fonts with your university or corporate identity for a professional impression."
   },
   {
     "id": "perplexity",
@@ -41,72 +96,19 @@
     "longDesc": "### Deep Dive Analysis\n\nPerplexity AI represents the next evolution of information retrieval. Traditional search engines return a list of links that require manual parsing; Perplexity acts as a research assistant, synthesizing information across multiple live sources to provide direct, cited answers. It fundamentally changes how professionals conduct research, cutting down discovery time by orders of magnitude.\n\n### Key Features Analysis\n- **Pro Search**: A multi-step reasoning engine that asks clarifying questions before searching, ensuring highly nuanced and accurate answers.\n- **Verified Citations**: Every claim is backed by footnote links to the original source, critical for academic or professional fact-checking.\n- **File Analysis**: Upload massive PDFs or datasets and ask the AI to extract data, summarize, or cross-reference with live web data.\n\n### Target Audience\nResearchers, academics, analysts, journalists, and corporate strategists who require verified data and deep research capabilities.\n\n### Why We Recommend It\nIn an era of AI hallucinations, Perplexity's strict adherence to cited sources makes it the most trustworthy generative search engine on the market. It is an indispensable tool for anyone whose job relies on accurate information gathering.",
     "affiliateLink": "https://www.perplexity.ai/",
     "category": "Search",
-    "features": ["Source Citation", "Pro Search", "File Analysis", "Copilot Mode"]
+    "features": ["Source Citation", "Pro Search", "File Analysis", "Copilot Mode"],
+    "usageGuide": "### Pro Usage Guide\n1. **Filter Specific Sources**: Use the 'Focus' feature to limit searches to Academic Journals or Reddit.\n2. **Verify Footnotes**: Click on reference numbers to check if the AI is citing truly relevant sources.\n3. **Use Copilot Mode**: Activate Copilot for research requiring step-by-step execution (e.g., comparing specs of different gadgets)."
   },
   {
-    "id": "midjourney",
-    "slug": "midjourney",
-    "name": "Midjourney",
-    "desc": "The most creative AI image generator.",
-    "description": "The most creative AI image generator.",
-    "longDesc": "### Deep Dive Analysis\n\nMidjourney is the undisputed king of aesthetic AI image generation. While other models prioritize strict prompt adherence or photorealism, Midjourney inherently understands composition, lighting, and artistic style. It consistently produces outputs that look like they belong in a high-end magazine or a digital art gallery. \n\n### Key Features Analysis\n- **Stylize Parameters**: Deep control over how strongly the AI applies its default aesthetic versus strictly following the text prompt.\n- **Vary Region (Inpainting)**: Selectively regenerate specific parts of an image without altering the surrounding composition.\n- **Style Reference (sref)**: Feed the model an image to use purely as a stylistic reference, ensuring consistent aesthetics across a campaign.\n\n### Target Audience\nArt directors, concept artists, marketing agencies, and creative professionals demanding the highest possible visual fidelity and artistic nuance.\n\n### Why We Recommend It\nThe quality of Midjourney v6 is breathtaking. Despite a steeper learning curve (currently operated via Discord or their Alpha web interface), the resulting imagery is vastly superior for creative campaigns compared to its competitors. It is a mandatory tool for any modern creative agency.",
-    "affiliateLink": "https://www.midjourney.com/",
-    "category": "Art",
-    "features": ["High-Resolution Art", "Style Tuning", "Vary Region", "Zoom Out"]
-  },
-  {
-    "id": "chatgpt",
-    "slug": "chatgpt",
-    "name": "ChatGPT",
-    "desc": "The most popular and versatile AI chatbot.",
-    "description": "The most popular and versatile AI chatbot.",
-    "longDesc": "### Deep Dive Analysis\n\nChatGPT by OpenAI remains the foundational pillar of the generative AI revolution. Powered by the GPT-4 architecture, it is the most versatile multi-modal AI assistant available. It is not just a chatbot; it is a code compiler, a data analyst, an image generator, and a strategic sounding board all rolled into one highly accessible interface.\n\n### Key Features Analysis\n- **Advanced Data Analysis**: Upload Excel files or SQL databases and have the AI write and execute Python code to generate charts and insights.\n- **Custom GPTs**: Build bespoke AI agents tailored to specific tasks (e.g., a \"Brand Strategist\" GPT) and deploy them to your team.\n- **Real-time Voice Mode**: A seamless, conversational voice interface that can detect emotion and respond with near-zero latency.\n\n### Target Audience\nLiterally every knowledge worker. From software engineers debugging code to CEOs drafting strategy memos, ChatGPT is the baseline utility for the modern enterprise.\n\n### Why We Recommend It\nIf a company can only afford one AI subscription, ChatGPT Plus/Team is the only logical choice. Its breadth of capability across text, code, vision, and voice makes it the ultimate Swiss Army knife of artificial intelligence.",
-    "affiliateLink": "https://chatgpt.com/",
-    "category": "Chatbot",
-    "features": ["Data Analysis", "Image Generation (DALL-E)", "Custom GPTs", "Voice Mode"]
-  },
-  {
-    "id": "luma-dream-machine",
-    "slug": "luma-dream-machine",
-    "name": "Luma Dream Machine",
-    "desc": "Next-gen AI video generator from text and images.",
-    "description": "Next-gen AI video generator from text and images.",
-    "longDesc": "### Deep Dive Analysis\n\nLuma Dream Machine represents a massive leap forward in accessible AI video generation. Utilizing a highly optimized transformer model, Luma allows creators to generate high-quality, physics-aware video clips directly from text prompts or static reference images. It excels at maintaining character consistency and generating cinematic camera movements.\n\n### Key Features Analysis\n- **Image-to-Video Animation**: Take a Midjourney output and breathe life into it with precise control over motion and camera trajectory.\n- **Fast Rendering**: Generates 5-second video clips significantly faster than earlier generation video models.\n- **Cinematic Camera Controls**: Prompt specific camera behaviors like pan, zoom, tracking shots, or drone flyovers.\n\n### Target Audience\nVideo editors, advertising agencies, indie filmmakers, and social media creators looking to incorporate high-end B-roll or VFX without massive budgets.\n\n### Why We Recommend It\nLuma provides a perfect balance of speed, quality, and accessibility. While the AI video space is fiercely competitive, Luma's ability to interpret complex motion prompts and deliver stable, cinematic outputs makes it a standout tool for production pipelines.",
-    "affiliateLink": "https://lumalabs.ai/dream-machine",
-    "category": "Video AI",
-    "features": ["Cinematic Motion", "Text-to-Video", "Image-to-Video", "High Realism"]
-  },
-  {
-    "id": "grammarly",
-    "slug": "grammarly",
-    "name": "Grammarly AI",
-    "desc": "Advanced AI writing partner for clarity and tone.",
-    "description": "Advanced AI writing partner for clarity and tone.",
-    "longDesc": "### Deep Dive Analysis\n\nGrammarly has evolved far beyond a simple spell-checker into a comprehensive AI communication assistant. Operating as an omnipresent layer across your browser and desktop applications, Grammarly ensures that corporate communication is not just grammatically correct, but also strikes the perfect tone and adheres to company-wide style guides.\n\n### Key Features Analysis\n- **Tone Adjustment**: Instantly rewrite an overly aggressive email to sound diplomatic, or a casual message to sound formal.\n- **Enterprise Style Guides**: Enforce company-specific terminology and formatting rules across all employee communications.\n- **Generative AI Drafting**: Draft emails, reports, or memos from scratch using simple prompts right inside your email client or document editor.\n\n### Target Audience\nCustomer success teams, sales professionals, HR departments, and any corporate entity that relies on clear, professional written communication.\n\n### Why We Recommend It\nPoor communication costs enterprises millions in lost productivity and strained client relationships. Grammarly acts as an automated safety net, ensuring every outgoing message represents the brand perfectly. The frictionless integration into existing workflows makes it a no-brainer for corporate deployment.",
-    "affiliateLink": "https://www.grammarly.com/",
-    "category": "Writing",
-    "features": ["Tone Detector", "Plagiarism Checker", "Style Suggestions", "Auto-Citation"]
-  },
-  {
-    "id": "descript",
-    "slug": "descript",
-    "name": "Descript",
-    "desc": "AI video and podcast editor via text transcript.",
-    "description": "AI video and podcast editor via text transcript.",
-    "longDesc": "### Deep Dive Analysis\n\nDescript has completely revolutionized the video and audio editing paradigm. Instead of dealing with complex timelines and waveforms, Descript transcribes your media and allows you to edit the video simply by editing the text document. If you delete a sentence in the script, the corresponding video segment is seamlessly cut. It is a profound workflow innovation.\n\n### Key Features Analysis\n- **Overdub**: Create an ultra-realistic text-to-speech model of your own voice to fix audio mistakes just by typing the correct words.\n- **Studio Sound**: A single-click AI audio enhancer that turns terrible echoey room audio into broadcast-quality studio sound.\n- **Eye Contact Correction**: AI subtly shifts the speaker's eyes to look directly at the camera, even if they were reading from a script off-screen.\n\n### Target Audience\nPodcasters, YouTube creators, corporate training departments, and marketing teams who need to produce high volumes of video content efficiently.\n\n### Why We Recommend It\nDescript reduces the video editing learning curve to near zero. It turns a highly technical skill into a basic word-processing task. For content marketing teams looking to scale video production without hiring dedicated editors, Descript is absolutely essential.",
-    "affiliateLink": "https://www.descript.com/",
-    "category": "Video AI",
-    "features": ["Studio Sound", "Overdub", "Eye Contact Correction", "Green Screen"]
-  },
-  {
-    "id": "notion-ai",
-    "slug": "notion-ai",
-    "name": "Notion AI",
-    "desc": "Integrate AI directly into your productivity workspace.",
-    "description": "Integrate AI directly into your productivity workspace.",
-    "longDesc": "### Deep Dive Analysis\n\nNotion AI brings the power of large language models directly to where your company's knowledge lives. Instead of copying and pasting text back and forth between a separate chatbot, Notion AI acts upon the data already existing in your wikis, databases, and meeting notes. It is an ambient intelligence layer embedded into your organizational operating system.\n\n### Key Features Analysis\n- **Q&A Search**: Ask natural language questions like \"What was the marketing budget for Q3?\" and Notion AI will find the answer buried in your company docs.\n- **Action Item Extraction**: Instantly turn a chaotic brain-dump of meeting notes into structured, assignable action items and summaries.\n- **Database Autofill**: Use AI to automatically extract entities, summarize data, or generate tags for thousands of rows in a Notion database.\n\n### Target Audience\nProject managers, product teams, startups, and enterprise operations relying on Notion as their centralized knowledge base and task management system.\n\n### Why We Recommend It\nContext switching is the enemy of productivity. Notion AI's greatest strength is its proximity to your data. By placing AI capabilities immediately next to the cursor inside your workspace, it dramatically accelerates documentation and project management workflows.",
-    "affiliateLink": "https://www.notion.so/product/ai",
-    "category": "Productivity",
-    "features": ["Document Summarization", "Action Item Extraction", "Brainstorming Assistant", "Tone Shifter"]
+    "id": "research-rabbit",
+    "slug": "research-rabbit",
+    "name": "ResearchRabbit",
+    "desc": "Spotify for research papers. Discover literature faster.",
+    "description": "Spotify for research papers. Discover literature faster.",
+    "longDesc": "### Deep Dive Analysis\n\nResearchRabbit is a must-have tool for senior students or researchers. This AI helps you find interconnected journals through visual mapping, eliminating the need for manual searches in Google Scholar.\n\n### Key Features Analysis\n- **Discovery Graphs**: Visualization of relationships between authors and papers.\n- **Personalized Recommendations**: The more papers you add, the more accurate the AI's suggestions become.\n- **Zotero Integration**: Automatic synchronization with your reference management tools.\n\n### Target Audience\nThesis/dissertation students, professors, and professional researchers.\n\n### Why We Recommend It\nThis tool saves days of work during literature reviews. It is a genuine game-changer in the academic world.",
+    "affiliateLink": "https://www.researchrabbit.ai/",
+    "category": "Research",
+    "features": ["Paper Mapping", "Citation Tracking", "Collaborative Collections", "AI Discovery"],
+    "usageGuide": "### Pro Usage Guide\n1. **Start with 'Seed' Papers**: Input 2-3 key journals most relevant to your topic as the AI's foundation.\n2. **Use the 'Timeline' Feature**: Observe how a theory has evolved over the years through a timeline graph.\n3. **Sync with Zotero**: Connect your Zotero account so newly discovered references can be used immediately while writing."
   }
 ]

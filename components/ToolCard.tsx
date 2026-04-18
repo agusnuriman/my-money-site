@@ -7,14 +7,22 @@ interface ToolCardProps {
 
 export function ToolCard({ tool }: ToolCardProps) {
   return (
-    <div className="group p-8 rounded-3xl border border-[var(--border-ui)] bg-[var(--card-bg)] hover:bg-[var(--card-hover)] card-transition flex flex-col h-full relative overflow-hidden">
-      {/* Subtle Background Ornament */}
-      <div className="absolute -right-4 -top-4 w-24 h-24 bg-blue-500/5 rounded-full blur-3xl group-hover:bg-blue-500/10 transition-colors" />
+    <div className="group p-8 premium-card card-transition flex flex-col h-full relative overflow-hidden">
+      {/* Premium Background Ornament */}
+      <div className="absolute -right-8 -top-8 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl group-hover:bg-blue-500/20 transition-all duration-700" />
+      <div className="absolute -left-8 -bottom-8 w-32 h-32 bg-cyan-500/5 rounded-full blur-3xl group-hover:bg-cyan-500/15 transition-all duration-700" />
       
       <div className="relative z-10 flex flex-col h-full">
-        <span className="w-fit px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 text-[10px] font-black tracking-widest uppercase mb-6">
-          {tool.category}
-        </span>
+        <div className="flex justify-between items-start mb-6">
+          <span className="px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400 text-[10px] font-black tracking-widest uppercase">
+            {tool.category}
+          </span>
+          {tool.isEditorChoice && (
+            <span className="px-3 py-1 bg-yellow-400 text-black text-[9px] font-black rounded-lg shadow-lg shadow-yellow-400/20 animate-pulse">
+              EDITOR'S CHOICE
+            </span>
+          )}
+        </div>
         
         <h2 className="text-2xl font-bold mb-3 text-[var(--text-main)] group-hover:text-[var(--accent-primary)] transition-colors">
           {tool.name}
@@ -24,16 +32,21 @@ export function ToolCard({ tool }: ToolCardProps) {
           {tool.desc}
         </p>
         
-        <div className="mt-auto pt-4">
+        <div className="mt-auto pt-4 flex gap-4">
           <Link 
             href={`/tool/${tool.slug}`} 
-            className="inline-flex items-center gap-2 text-sm font-bold text-[var(--accent-primary)] hover:gap-3 transition-all"
+            className="inline-flex items-center gap-2 text-xs font-bold text-[var(--text-muted)] hover:text-[var(--accent-primary)] transition-all"
           >
-            Explore Review
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
+            Review
           </Link>
+          <a 
+            href={`/go/${tool.slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-grow text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-bold text-xs transition-all shadow-lg shadow-blue-500/20"
+          >
+            Try Now →
+          </a>
         </div>
       </div>
     </div>
