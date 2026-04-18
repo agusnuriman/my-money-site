@@ -14,6 +14,7 @@ export function Footer() {
         
         <div className="flex gap-6 text-xs text-[var(--text-muted)] font-medium">
           <Link href="/about" className="hover:text-[var(--accent-primary)] transition-colors">About Us</Link>
+          <Link href="/contact" className="hover:text-[var(--accent-primary)] transition-colors">Contact Us</Link>
           <Link href="/privacy" className="hover:text-[var(--accent-primary)] transition-colors">Privacy Policy</Link>
           <Link href="/terms" className="hover:text-[var(--accent-primary)] transition-colors">Terms of Service</Link>
         </div>
