@@ -30,7 +30,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function ToolDetail({ params }: PageProps) {
+export default async function ToolDetail({ params }: Readonly<PageProps>) {
   const { slug } = await params;
   const tool = await getToolBySlug(slug);
 
@@ -74,19 +74,19 @@ export default async function ToolDetail({ params }: PageProps) {
             <div className="text-[var(--text-muted)] leading-loose text-lg">
               {tool.longDesc.split('\n').map((line, i) => {
                 if (line.startsWith('### ')) {
-                  return <h3 key={i} className="text-2xl font-bold mt-10 mb-4 text-[var(--text-main)]">{line.replace('### ', '')}</h3>;
+                  return <h3 key={`heading-${i}`} className="text-2xl font-bold mt-10 mb-4 text-[var(--text-main)]">{line.replace('### ', '')}</h3>;
                 }
                 if (line.startsWith('- **')) {
                   const parts = line.split('**:');
                   return (
-                    <li key={i} className="ml-4 mb-2 list-disc">
+                    <li key={`feature-item-${i}`} className="ml-4 mb-2 list-disc">
                       <strong className="text-[var(--text-main)]">{parts[0].replace('- **', '')}:</strong>
                       {parts[1]}
                     </li>
                   );
                 }
-                if (line.trim() === '') return <br key={i} />;
-                return <p key={i} className="mb-4">{line}</p>;
+                if (line.trim() === '') return <br key={`br-${i}`} />;
+                return <p key={`line-${i}`} className="mb-4">{line}</p>;
               })}
             </div>
           </div>
@@ -94,7 +94,7 @@ export default async function ToolDetail({ params }: PageProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
             <div>
               <h3 className="text-2xl font-bold mb-6 text-[var(--text-main)] flex items-center gap-2">
-                <span className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 text-base">★</span>
+                <span className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 text-base">★</span>{" "}
                 Key Features
               </h3>
               <ul className="space-y-4">
@@ -110,21 +110,21 @@ export default async function ToolDetail({ params }: PageProps) {
             {tool.usageGuide && (
               <div className="bg-gradient-to-br from-slate-50 to-blue-50 dark:from-white/5 dark:to-blue-500/5 p-8 rounded-3xl border border-blue-500/10">
                 <h3 className="text-xl font-bold mb-6 text-[var(--text-main)] flex items-center gap-2">
-                  <span className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs">GO</span>
+                  <span className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs">GO</span>{" "}
                   Pro Cheat Sheet
                 </h3>
                 <div className="text-sm space-y-4 text-[var(--text-muted)] leading-relaxed">
                   {tool.usageGuide.split('\n').map((line, i) => {
                     if (line.startsWith('### ')) return null; // Heading is already handled by GO icon
-                    if (line.match(/^\d+\./)) {
+                    if (/^\d+\./.exec(line)) {
                       return (
-                        <div key={i} className="flex gap-3">
+                        <div key={`guide-step-${i}`} className="flex gap-3">
                           <span className="font-black text-blue-600">{line.split('.')[0]}.</span>
                           <span><strong className="text-[var(--text-main)]">{line.split('**')[1]}</strong>{line.split('**')[2]}</span>
                         </div>
                       );
                     }
-                    return <p key={i}>{line}</p>;
+                    return <p key={`guide-line-${i}`}>{line}</p>;
                   })}
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default async function ToolDetail({ params }: PageProps) {
               Start Using {tool.name} →
             </a>
             <p className="mt-8 text-[10px] opacity-60 font-bold uppercase tracking-widest flex items-center justify-center gap-2">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>{" "}
               Official Verified Partner Link
             </p>
           </div>

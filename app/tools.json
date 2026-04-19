@@ -110,5 +110,53 @@
     "category": "Research",
     "features": ["Paper Mapping", "Citation Tracking", "Collaborative Collections", "AI Discovery"],
     "usageGuide": "### Pro Usage Guide\n1. **Start with 'Seed' Papers**: Input 2-3 key journals most relevant to your topic as the AI's foundation.\n2. **Use the 'Timeline' Feature**: Observe how a theory has evolved over the years through a timeline graph.\n3. **Sync with Zotero**: Connect your Zotero account so newly discovered references can be used immediately while writing."
+  },
+  {
+    "id": "writesonic",
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "desc": "The world's best AI writer for blog posts and marketing copy.",
+    "description": "The world's best AI writer for blog posts and marketing copy.",
+    "longDesc": "### Deep Dive Analysis\n\nWritesonic has evolved from a simple AI writer into a full-scale content marketing powerhouse. It is particularly famous for its 'AI Article Writer 6.0', which can generate long-form, SEO-optimized blog posts that are factually accurate and include real-time data from Google Search.\n\n### Key Features Analysis\n- **Chatsonic**: A conversational AI that is connected to Google Search for real-time information.\n- **SEO Checker**: Built-in SEO analysis to ensure your content ranks for your target keywords.\n- **AudioSonic**: Convert your written content into realistic audio podcasts instantly.\n\n### Target Audience\nProfessional bloggers, digital agencies, and marketing teams who need high-velocity, fact-checked content.\n\n### Why We Recommend It\nWritesonic offers a more affordable yet highly powerful alternative to Jasper. Its focus on real-time data and SEO makes it a top choice for content marketers.\n\n### Affiliate Note\nApplication submitted. This tool offers one of the best recurring commission structures in the industry.",
+    "affiliateLink": "https://writesonic.com/",
+    "category": "Writing",
+    "features": ["AI Blog Writer", "Real-time Search", "SEO Optimization", "Text to Speech"],
+    "usageGuide": "### Pro Usage Guide\n1. **Use the 'Latest' Model**: Always ensure you are using the latest version of their AI Article Writer for the most up-to-date Google data.\n2. **Customize Brand Voice**: Just like Jasper, you can upload your past work to train Writesonic on your specific writing style.\n3. **Bulk Generate**: Use the bulk generation feature to create 20-30 social media posts from a single blog article."
+  },
+  {
+    "id": "pictory",
+    "slug": "pictory",
+    "name": "Pictory",
+    "desc": "Automatically create short, highly-sharable branded videos from your long-form content.",
+    "description": "Automatically create short, highly-sharable branded videos from your long-form content.",
+    "longDesc": "### Deep Dive Analysis\n\nPictory is a game-changer for content repurposing. It can take a long YouTube video, a webinar, or even a blog post and automatically extract the most viral-worthy 'highlights' to create short-form videos for TikTok, Reels, and Shorts.\n\n### Key Features Analysis\n- **Script to Video**: Turn your written scripts into high-quality videos with stock footage, music, and AI voiceovers.\n- **Auto-Summarization**: Let the AI find the best parts of your long videos for social media sharing.\n- **Auto-Captions**: Automatically generate and burn subtitles into your videos for better engagement.\n\n### Target Audience\nYouTubers, podcasters, and social media managers who need to scale their video presence without expensive editing teams.\n\n### Why We Recommend It\nThe speed of workflow is incredible. What used to take a professional editor 4-5 hours can now be done in 10 minutes with Pictory's AI.\n\n### Affiliate Note\nApplication submitted. Very popular among students for creating 'Faceless' YouTube channels.",
+    "affiliateLink": "https://pictory.ai/",
+    "category": "Video AI",
+    "features": ["Video Highlights", "Script to Video", "Auto Captions", "Content Repurposing"],
+    "usageGuide": "### Pro Usage Guide\n1. **Use 'Visual' Match**: If the AI picks a stock clip you don't like, use the 'Visuals' tab to search their library of millions of clips for a perfect replacement.\n2. **Enable 'B-Roll'**: Let the AI automatically insert B-roll clips over your talking head video to keep the audience's attention.\n3. **Customize Branding**: Set up your brand kit once (logos, fonts, colors) so every video you generate is instantly on-brand."
+  },
+  {
+    "id": "canva-ai",
+    "slug": "canva-ai",
+    "name": "Canva Magic Studio",
+    "desc": "The most popular design tool now powered by a full suite of AI features.",
+    "description": "The most popular design tool now powered by a full suite of AI features.",
+    "longDesc": "### Deep Dive Analysis\n\nCanva has integrated AI so deeply into its platform that it has become a 'Magic Studio'. From generating entire presentations to removing objects from photos with a single click, Canva's AI makes professional design accessible to everyone, regardless of skill level.\n\n### Key Features Analysis\n- **Magic Media**: Text-to-image and text-to-video generation within your canvas.\n- **Magic Grab**: Select and move any object in a photo as if it were a separate element.\n- **Magic Switch**: Instantly convert a presentation into a blog post or a social media graphic.\n\n### Target Audience\nEveryone from students to social media managers and small business owners.\n\n### Why We Recommend It\nCanva is already the industry standard for simple design. Their AI features are intuitive and perfectly integrated into the tools people already use every day.\n\n### Affiliate Note\nApplication submitted. The 'Canvassador' program is highly prestigious and adds massive authority to your site.",
+    "affiliateLink": "https://www.canva.com/",
+    "category": "Design",
+    "features": ["Magic Edit", "AI Image Generation", "Instant Resize", "Brand Hub"],
+    "usageGuide": "### Pro Usage Guide\n1. **Use 'Magic Morph'**: Transform text or shapes into unique textures (e.g., 'make this word look like balloon' or 'shiny gold').\n2. **Leverage Magic Expand**: If your photo is too small for your design, use Magic Expand to let the AI 'paint' the rest of the background.\n3. **Batch Create**: Use the 'Bulk Create' feature with a CSV file to generate 50-100 social media graphics in seconds."
+  },
+  {
+    "id": "invideo-ai",
+    "slug": "invideo-ai",
+    "name": "InVideo AI",
+    "desc": "Generate full YouTube videos with scripts, voiceovers, and media from a single prompt.",
+    "description": "Generate full YouTube videos with scripts, voiceovers, and media from a single prompt.",
+    "longDesc": "### Deep Dive Analysis\n\nInVideo AI is a powerhouse for creating high-production-value videos without touching a camera. It functions like a director's assistant; you tell it what you want, and it handles everything from finding the stock footage to generating the human-like voiceover and matching the music to the mood.\n\n### Key Features Analysis\n- **Prompt-to-Video**: Input a simple sentence and get a fully edited video in minutes.\n- **AI Video Editor**: Use chat-based commands to edit your video (e.g., 'change the voice to a British female').\n- **Massive Media Library**: Access to 16M+ stock clips from top providers like iStock and Shutterstock.\n\n### Target Audience\nContent creators, YouTube automation channels, and marketers who need high-quality video content at scale.\n\n### Why We Recommend It\nIt is the most 'complete' video generator on the market. It doesn't just generate clips; it generates a finished product ready for upload.\n\n### Affiliate Note\nApplication submitted. Very high conversion rate for users interested in YouTube automation.",
+    "affiliateLink": "https://invideo.io/",
+    "category": "Video AI",
+    "features": ["Prompt to Video", "AI Voiceover", "Auto Editing", "Stock Media"],
+    "usageGuide": "### Pro Usage Guide\n1. **Give Specific Prompts**: Instead of 'make a video about dogs', try 'make a 5-minute educational video about the top 5 smartest dog breeds with a friendly, high-energy narrator'.\n2. **Edit via Chat**: Don't manually move clips; just type 'remove the third scene and replace it with a more emotional clip' and the AI will do it.\n3. **Export in Different Ratios**: Use the AI to instantly convert your horizontal YouTube video into a vertical TikTok with one command."
   }
 ]

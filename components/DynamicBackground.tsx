@@ -3,59 +3,128 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
+interface StarData {
+  id: string;
+  top: string;
+  left: string;
+  size: string;
+  duration: string;
+  delay: string;
+  moveDuration: string;
+}
+
+interface CloudData {
+  id: string;
+  top: string;
+  left: string;
+  width: string;
+  height: string;
+  duration: string;
+  delay: string;
+}
+
+interface BackgroundState {
+  mounted: boolean;
+  stars: StarData[];
+  clouds: CloudData[];
+}
+
 export function DynamicBackground() {
   const { theme, resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const [state, setState] = useState<BackgroundState>({
+    mounted: false,
+    stars: [],
+    clouds: [],
+  });
 
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    // Generate values only once on client-side mount
+    const stars = Array.from({ length: 70 }).map((_, i) => ({
+      id: `star-${Math.random().toString(36).substring(2, 11)}-${i}`,
+      top: `${Math.random() * 100}%`,
+      left: `${Math.random() * 100}%`,
+      size: `${1 + Math.random() * 3}px`, // 1px to 4px
+      duration: `${2 + Math.random() * 4}s`,
+      delay: `${Math.random() * 5}s`,
+      moveDuration: `${30 + Math.random() * 60}s`, // 30s to 90s to float up
+    }));
 
-  if (!mounted) return null;
+    const clouds = Array.from({ length: 8 }).map((_, i) => ({
+      id: `cloud-${Math.random().toString(36).substring(2, 11)}-${i}`,
+      top: `${5 + Math.random() * 50}%`,
+      left: `${-30 + Math.random() * 30}%`,
+      width: `${150 + Math.random() * 250}px`,
+      height: `${80 + Math.random() * 120}px`,
+      duration: `${25 + Math.random() * 35}s`,
+      delay: `${-Math.random() * 40}s`,
+    }));
+
+    requestAnimationFrame(() => {
+      setState({
+        mounted: true,
+        stars,
+        clouds,
+      });
+    });
+  }, []);
+
+  if (!state.mounted) return null;
 
   const currentTheme = resolvedTheme || theme;
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none transition-colors duration-1000">
+    <div 
+      style={{
+        position: 'fixed',
+        inset: 0,
+        zIndex: -10,
+        overflow: 'hidden',
+        pointerEvents: 'none',
+        transition: 'background-color 1000ms'
+      }}
+    >
       {currentTheme === "dark" ? (
         /* NIGHT MODE: Stars */
-        <div className="absolute inset-0 bg-[#020617]">
-          {[...Array(50)].map((_, i) => (
+        <div style={{ position: 'absolute', inset: 0, backgroundColor: '#020617' }}>
+          {state.stars.map((star) => (
             <div
-              key={i}
+              key={star.id}
               className="star"
               style={{
-                top: `${Math.random() * 100}%`,
-                left: `${Math.random() * 100}%`,
-                width: `${Math.random() * 3}px`,
-                height: `${Math.random() * 3}px`,
-                // @ts-ignore
-                "--duration": `${2 + Math.random() * 3}s`,
-                "--delay": `${Math.random() * 5}s`,
+                top: star.top,
+                left: star.left,
+                width: star.size,
+                height: star.size,
+                // @ts-expect-error - CSS custom properties
+                "--duration": star.duration,
+                "--delay": star.delay,
+                "--move-duration": star.moveDuration,
               }}
             />
           ))}
           {/* Subtle Moon Glow */}
-          <div className="absolute top-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-500/10 blur-[120px] rounded-full" />
+          <div style={{ position: 'absolute', top: '-10%', right: '-10%', width: '40%', height: '40%', backgroundColor: 'rgba(59, 130, 246, 0.1)', filter: 'blur(120px)', borderRadius: '9999px' }} />
         </div>
       ) : (
         /* LIGHT MODE: Clouds */
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-white">
-          {[...Array(6)].map((_, i) => (
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, #bae6fd, #e0f2fe, #ffffff)' }}>
+          {state.clouds.map((cloud) => (
             <div
-              key={i}
+              key={cloud.id}
               className="cloud"
               style={{
-                top: `${10 + Math.random() * 40}%`,
-                left: `${-20 + Math.random() * 20}%`,
-                width: `${200 + Math.random() * 300}px`,
-                height: `${100 + Math.random() * 150}px`,
-                // @ts-ignore
-                "--duration": `${20 + Math.random() * 40}s`,
-                "--delay": `${-Math.random() * 40}s`,
+                top: cloud.top,
+                left: cloud.left,
+                width: cloud.width,
+                height: cloud.height,
+                // @ts-expect-error - CSS custom properties
+                "--duration": cloud.duration,
+                "--delay": cloud.delay,
               }}
             />
           ))}
           {/* Subtle Sun Glow */}
-          <div className="absolute top-[-10%] left-[-10%] w-[30%] h-[30%] bg-yellow-200/20 blur-[100px] rounded-full" />
+          <div style={{ position: 'absolute', top: '-10%', left: '-10%', width: '30%', height: '30%', backgroundColor: 'rgba(254, 240, 138, 0.4)', filter: 'blur(100px)', borderRadius: '9999px' }} />
         </div>
       )}
     </div>

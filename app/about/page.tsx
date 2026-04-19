@@ -33,7 +33,7 @@ export default function AboutPage() {
               At Global AI Hub, our mission is to demystify the rapidly evolving artificial intelligence landscape for B2B professionals, enterprise leaders, and forward-thinking creators. We understand that selecting the right AI infrastructure is no longer a luxury—it is a critical competitive advantage.
             </p>
             <p>
-              We provide rigorous, objective, and deeply technical reviews of the world's leading AI platforms, ensuring our readers can make informed procurement decisions with confidence.
+              We provide rigorous, objective, and deeply technical reviews of the world&apos;s leading AI platforms, ensuring our readers can make informed procurement decisions with confidence.
             </p>
           </div>
 

@@ -3,32 +3,31 @@
 export function Newsletter() {
   return (
     <section className="py-20 px-4">
-      <div className="max-w-4xl mx-auto premium-card p-12 text-center relative overflow-hidden group">
-        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500" />
-        
-        <h2 className="text-3xl md:text-5xl font-black mb-6 text-[var(--text-main)] tracking-tight">
-          Stay Ahead of the <span className="premium-gradient-text">AI Curve</span>
+      <div className="relative mx-auto max-w-4xl overflow-hidden rounded-3xl border border-slate-200 bg-white p-8 text-center transition-all duration-300 hover:border-blue-500/50 dark:border-slate-800 dark:bg-slate-900/50 dark:backdrop-blur-xl md:p-12">
+        <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900 dark:text-white tracking-tight leading-tight">
+          Stay Ahead of the <br className="md:hidden" />
+          <span className="bg-linear-to-br from-blue-600 to-cyan-500 bg-clip-text text-transparent dark:from-blue-400 dark:to-cyan-300">AI Curve</span>
         </h2>
-        <p className="text-[var(--text-muted)] text-lg mb-10 max-w-xl mx-auto font-medium">
+        <p className="mx-auto mb-8 max-w-xl text-base font-medium leading-relaxed text-slate-600 dark:text-slate-300 md:text-lg">
           Join 5,000+ professionals receiving our weekly curated AI insights and exclusive software deals.
         </p>
         
-        <form className="flex flex-col md:flex-row gap-4 max-w-lg mx-auto" onSubmit={(e) => e.preventDefault()}>
+        <form className="mx-auto flex max-w-lg flex-col gap-4 md:flex-row" onSubmit={(e) => e.preventDefault()}>
           <input 
             type="email" 
             placeholder="Enter your work email" 
-            className="flex-grow px-6 py-4 rounded-2xl bg-white dark:bg-white/5 border border-[var(--border-ui)] focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all font-medium"
+            className="grow rounded-xl border border-slate-200 bg-white px-6 py-3.5 font-medium transition-all focus:ring-2 focus:ring-blue-500/50 focus:outline-none dark:border-slate-800 dark:bg-slate-950/50"
             required
           />
           <button 
             type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl font-bold transition-all shadow-xl shadow-blue-500/25 active:scale-95"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3.5 rounded-xl font-bold transition-all shadow-xl shadow-blue-500/25 active:scale-95"
           >
             Subscribe
           </button>
         </form>
         
-        <p className="mt-6 text-[10px] text-[var(--text-muted)] opacity-60 uppercase font-bold tracking-widest">
+        <p className="mt-6 text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
           Zero Spam. One-click unsubscribe.
         </p>
       </div>

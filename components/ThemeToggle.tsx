@@ -8,14 +8,16 @@ export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
 
   // Avoid hydration mismatch
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    requestAnimationFrame(() => setMounted(true));
+  }, []);
 
   if (!mounted) return <div className="p-2 w-10 h-10" />;
 
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2.5 rounded-xl bg-[var(--border-ui)] hover:opacity-80 transition-all text-lg shadow-sm"
+      className="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all text-lg shadow-sm"
       aria-label="Toggle Theme"
     >
       {theme === "dark" ? "🌙" : "☀️"}

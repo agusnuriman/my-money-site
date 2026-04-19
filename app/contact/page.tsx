@@ -14,7 +14,7 @@ export default function ContactPage() {
       <main className="max-w-4xl mx-auto py-20 px-6 w-full flex-grow">
         <header className="mb-16 text-center">
           <h1 className="text-4xl md:text-6xl font-black mb-6 text-[var(--text-main)]">Get in <span className="premium-gradient-text">Touch</span></h1>
-          <p className="text-[var(--text-muted)] text-xl font-medium">Have a partnership inquiry or a tool review request? We'd love to hear from you.</p>
+          <p className="text-[var(--text-muted)] text-xl font-medium">Have a partnership inquiry or a tool review request? We&apos;d love to hear from you.</p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

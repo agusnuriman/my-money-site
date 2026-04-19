@@ -1,105 +1,65 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  /* Premium Slate & Blue Palette */
-  --bg-app: transparent;
-  --bg-nav: rgba(255, 255, 255, 0.7);
-  --bg-page: #ffffff;
-  --text-main: #0f172a;    /* Slate 900 */
-  --text-muted: #475569;   /* Slate 600 */
-  --border-ui: rgba(15, 23, 42, 0.05);
-  --accent-primary: #2563eb;
-  --accent-secondary: #0ea5e9;
-  --card-bg: rgba(255, 255, 255, 0.8);
-  --card-hover: rgba(255, 255, 255, 0.95);
+  --background: #ffffff;
+  --foreground: #020617;
 }
 
 .dark {
-  --bg-app: transparent;
-  --bg-nav: rgba(2, 6, 23, 0.7);
-  --bg-page: #020617;
-  --text-main: #f8fafc;    /* Slate 50 */
-  --text-muted: #94a3b8;   /* Slate 400 */
-  --border-ui: rgba(248, 250, 252, 0.05);
-  --accent-primary: #3b82f6;
-  --accent-secondary: #38bdf8;
-  --card-bg: rgba(15, 23, 42, 0.6);
-  --card-hover: rgba(30, 41, 59, 0.8);
+  --background: #020617;
+  --foreground: #f8fafc;
 }
 
-@layer base {
-  body {
-    @apply antialiased;
-    background-color: var(--bg-app);
-    color: var(--text-main);
-  }
-  ::selection {
-    background-color: rgba(59, 130, 246, 0.3);
-  }
-}
-
-/* Smooth theme transition without global * selector */
 body {
-  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom Utilities for Premium Look */
-.glass-effect {
-  @apply backdrop-blur-2xl border-b border-white/20;
-  background-color: var(--bg-nav);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+/* Base Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-.dark .glass-effect {
-  @apply border-white/5;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
-.premium-card {
-  @apply rounded-[2.5rem] border border-white/20 bg-white/40 backdrop-blur-md;
-  box-shadow: 
-    0 10px 15px -3px rgba(0, 0, 0, 0.05),
-    0 4px 6px -2px rgba(0, 0, 0, 0.02),
-    inset 0 1px 1px rgba(255, 255, 255, 0.5);
-}
-
-.dark .premium-card {
-  @apply border-white/5 bg-white/5;
-  box-shadow: 
-    0 20px 25px -5px rgba(0, 0, 0, 0.2),
-    0 10px 10px -5px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
-}
-
-.premium-gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)];
-}
-
-.card-transition {
-  @apply transition-all duration-500 hover:-translate-y-2;
-  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-
-/* Dynamic Background Animations */
-@keyframes twinkle {
-  0%, 100% { opacity: 0.3; transform: scale(0.8); }
-  50% { opacity: 1; transform: scale(1.2); }
-}
-
-@keyframes drift {
-  from { transform: translateX(-20%); }
-  to { transform: translateX(120%); }
-}
-
+/* Background elements styling */
 .star {
-  @apply absolute rounded-full bg-white;
-  animation: twinkle var(--duration) ease-in-out infinite;
-  animation-delay: var(--delay);
+  position: absolute;
+  border-radius: 9999px;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+  animation: 
+    twinkle var(--duration) ease-in-out infinite var(--delay),
+    floatUp var(--move-duration) linear infinite var(--delay);
 }
 
 .cloud {
-  @apply absolute rounded-full bg-white/60 blur-3xl;
-  animation: drift var(--duration) linear infinite;
-  animation-delay: var(--delay);
+  position: absolute;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.9);
+  filter: blur(40px);
+  animation: drift var(--duration) linear infinite var(--delay);
+}
+
+@keyframes floatUp {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100vh); }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.5); box-shadow: 0 0 15px 4px rgba(255, 255, 255, 0.8); }
+}
+
+@keyframes drift {
+  from { transform: translateX(-30vw); }
+  to { transform: translateX(120vw); }
 }
