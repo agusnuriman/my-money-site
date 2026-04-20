@@ -1,11 +1,12 @@
 ---
 id: "pictory"
+slug: "pictory"
 name: "Pictory"
 category: "Video"
-rating: 5
-description: "Alat AI canggih untuk mengubah konten teks menjadi video pendek yang menarik secara otomatis."
+desc: "Alat AI canggih untuk mengubah konten teks menjadi video pendek yang menarik secara otomatis."
 affiliateLink: "https://pictory.ai?ref=agus25"
-image: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=800"
+isEditorChoice: false
+features: ["Script to Video", "Article to Video", "Auto Captions", "Video Summarization"]
 ---
 
 # Pictory: Ubah Konten Menjadi Video dalam Hitungan Menit
