@@ -46,7 +46,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold text-[var(--text-main)]">5. Contact Us</h2>
             <p>
-              If you have any questions about this privacy policy, please contact us at: <strong>imnnra@gmail.com</strong>
+              If you have any questions about this privacy policy, please contact us at: <strong>info@theglobalaihub.space</strong>
             </p>
           </section>
         </article>

@@ -22,13 +22,13 @@ export default function ContactPage() {
             <div>
               <h3 className="text-lg font-bold text-[var(--text-main)] mb-2">Partnership Inquiries</h3>
               <p className="text-[var(--text-muted)]">Interested in featuring your AI tool on our platform?</p>
-              <a href="mailto:imnnra@gmail.com" className="text-blue-600 font-bold hover:underline">imnnra@gmail.com</a>
+              <a href="mailto:info@theglobalaihub.space" className="text-blue-600 font-bold hover:underline">info@theglobalaihub.space</a>
             </div>
             
             <div>
               <h3 className="text-lg font-bold text-[var(--text-main)] mb-2">General Support</h3>
               <p className="text-[var(--text-muted)]">Questions about our editorial process or content?</p>
-              <a href="mailto:imnnra@gmail.com" className="text-blue-600 font-bold hover:underline">imnnra@gmail.com</a>
+              <a href="mailto:info@theglobalaihub.space" className="text-blue-600 font-bold hover:underline">info@theglobalaihub.space</a>
             </div>
           </div>
 

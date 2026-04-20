@@ -1,4 +1,5 @@
 import { getToolBySlug, getAllTools } from "@/lib/data";
+import ReactMarkdown from "react-markdown";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { notFound } from "next/navigation";
@@ -68,30 +69,14 @@ export default async function ToolDetail({ params }: Readonly<PageProps>) {
           </p>
         </header>
 
-        <article className="prose prose-slate dark:prose-invert max-w-none">
-          <div className="bg-[var(--card-bg)] border border-[var(--border-ui)] p-8 md:p-12 rounded-[2.5rem] mb-12 shadow-sm">
-            <h3 className="text-2xl font-bold mb-6 text-[var(--text-main)] hidden">Expert Evaluation</h3>
-            <div className="text-[var(--text-muted)] leading-loose text-lg">
-              {tool.longDesc.split('\n').map((line, i) => {
-                if (line.startsWith('### ')) {
-                  return <h3 key={`heading-${i}`} className="text-2xl font-bold mt-10 mb-4 text-[var(--text-main)]">{line.replace('### ', '')}</h3>;
-                }
-                if (line.startsWith('- **')) {
-                  const parts = line.split('**:');
-                  return (
-                    <li key={`feature-item-${i}`} className="ml-4 mb-2 list-disc">
-                      <strong className="text-[var(--text-main)]">{parts[0].replace('- **', '')}:</strong>
-                      {parts[1]}
-                    </li>
-                  );
-                }
-                if (line.trim() === '') return <br key={`br-${i}`} />;
-                return <p key={`line-${i}`} className="mb-4">{line}</p>;
-              })}
+        <article className="max-w-none">
+          <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-8 md:p-12 rounded-[2.5rem] mb-12 shadow-sm">
+            <div className="text-slate-600 dark:text-slate-300 leading-loose text-lg [&>h3]:text-2xl [&>h3]:font-bold [&>h3]:mt-10 [&>h3]:mb-4 [&>h3]:text-slate-900 [&>h3]:dark:text-white [&>p]:mb-4 [&>ul]:list-disc [&>ul]:ml-6 [&>ul]:mb-4 [&>li]:mb-2 [&>li>strong]:text-slate-900 [&>li>strong]:dark:text-white">
+              <ReactMarkdown>{tool.content}</ReactMarkdown>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
+          <div className="mt-16">
             <div>
               <h3 className="text-2xl font-bold mb-6 text-[var(--text-main)] flex items-center gap-2">
                 <span className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-600 text-base">★</span>{" "}
@@ -106,29 +91,6 @@ export default async function ToolDetail({ params }: Readonly<PageProps>) {
                 ))}
               </ul>
             </div>
-
-            {tool.usageGuide && (
-              <div className="bg-gradient-to-br from-slate-50 to-blue-50 dark:from-white/5 dark:to-blue-500/5 p-8 rounded-3xl border border-blue-500/10">
-                <h3 className="text-xl font-bold mb-6 text-[var(--text-main)] flex items-center gap-2">
-                  <span className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-xs">GO</span>{" "}
-                  Pro Cheat Sheet
-                </h3>
-                <div className="text-sm space-y-4 text-[var(--text-muted)] leading-relaxed">
-                  {tool.usageGuide.split('\n').map((line, i) => {
-                    if (line.startsWith('### ')) return null; // Heading is already handled by GO icon
-                    if (/^\d+\./.exec(line)) {
-                      return (
-                        <div key={`guide-step-${i}`} className="flex gap-3">
-                          <span className="font-black text-blue-600">{line.split('.')[0]}.</span>
-                          <span><strong className="text-[var(--text-main)]">{line.split('**')[1]}</strong>{line.split('**')[2]}</span>
-                        </div>
-                      );
-                    }
-                    return <p key={`guide-line-${i}`}>{line}</p>;
-                  })}
-                </div>
-              </div>
-            )}
           </div>
         </article>
 

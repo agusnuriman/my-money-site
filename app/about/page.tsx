@@ -61,7 +61,7 @@ export default function AboutPage() {
             <p className="mb-0">
               For media relations, software review requests, or network partnership inquiries, please reach out to our corporate team. We are continually expanding our network of trusted B2B software vendors.
               <br/><br/>
-              <strong>Contact:</strong> imnnra@gmail.com
+              <strong>Contact:</strong> info@theglobalaihub.space
             </p>
           </div>
 
