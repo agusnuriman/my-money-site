@@ -3,36 +3,36 @@ id: "pictory"
 slug: "pictory"
 name: "Pictory"
 category: "Video"
-desc: "Alat AI canggih untuk mengubah konten teks menjadi video pendek yang menarik secara otomatis."
+desc: "Advanced AI tool to automatically convert text content into engaging short videos."
 affiliateLink: "https://pictory.ai?ref=agus25"
 isEditorChoice: false
 features: ["Script to Video", "Article to Video", "Auto Captions", "Video Summarization"]
 ---
 
-# Pictory: Ubah Konten Menjadi Video dalam Hitungan Menit
+# Pictory: Turn Content into Videos in Minutes
 
-Pictory adalah platform pembuat video bertenaga AI yang memungkinkan Anda membuat video berkualitas profesional dari konten teks, blog, atau skrip tanpa memerlukan keahlian teknis editing.
+Pictory is an AI-powered video creation platform that allows you to create professional-quality videos from text, blogs, or scripts without requiring technical editing skills.
 
 > [!IMPORTANT]
-> **PROMO KHUSUS:** Dapatkan **Diskon 20% Seumur Hidup** untuk paket apa pun dengan menggunakan kode kupon: **`agus25`** saat checkout.
+> **SPECIAL PROMO:** Get **20% Off for Life** on any plan using the coupon code: **`agus25`** at checkout.
 
-### Mengapa Memilih Pictory?
+### Why Choose Pictory?
 
-Pictory sangat cocok untuk content creator, marketer, dan pemilik bisnis yang ingin meningkatkan kehadiran media sosial mereka dengan video tanpa menghabiskan waktu berjam-jam untuk mengedit.
+Pictory is perfect for content creators, marketers, and business owners looking to boost their social media presence with video without spending hours on manual editing.
 
-### Fitur Utama Analysis
+### Key Features Analysis
 
-- **Script to Video**: Masukkan naskah Anda dan biarkan AI memilihkan footage dan musik yang sesuai.
-- **Article to Video**: Masukkan URL blog Anda dan AI akan merangkum poin-poin penting menjadi video.
-- **Auto Captions**: Menambahkan subtitle secara otomatis dengan akurasi tinggi (sangat penting untuk video tanpa suara di media sosial).
-- **Video Summarization**: Mengubah video panjang (seperti rekaman Zoom atau Webinar) menjadi cuplikan pendek yang viral.
+- **Script to Video**: Input your script and let the AI automatically select appropriate stock footage and music.
+- **Article to Video**: Paste your blog URL and the AI will summarize key points into a highly engaging video.
+- **Auto Captions**: Automatically add highly accurate subtitles (crucial for social media videos played on mute).
+- **Video Summarization**: Turn long-form videos (like Zoom recordings or Webinars) into viral short clips.
 
-### Panduan Penggunaan untuk Pemula
+### Beginner's Usage Guide
 
-1. **Upload Konten**: Masukkan naskah atau URL artikel Anda.
-2. **Review AI Summary**: AI akan merangkum konten Anda, Anda bisa menyesuaikan bagian mana yang ingin ditonjolkan.
-3. **Pilih Template**: Pilih dari ratusan library visual yang tersedia.
-4. **Export & Share**: Video siap diunggah ke TikTok, Reels, atau YouTube Shorts.
+1. **Upload Content**: Input your script or article URL.
+2. **Review AI Summary**: The AI will summarize your content. You can adjust which parts to highlight.
+3. **Choose Template**: Select from hundreds of available visual templates.
+4. **Export & Share**: Your video is ready to be uploaded to TikTok, Reels, or YouTube Shorts.
 
 ---
-*Gunakan AI untuk mempercepat produksi konten Anda dan mulailah mendominasi algoritma media sosial hari ini!*
+*Leverage AI to accelerate your content production and start dominating social media algorithms today!*
