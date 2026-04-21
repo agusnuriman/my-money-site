@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const tools = await getAllTools();
-  const baseUrl = 'https://globalaihub.vercel.app'; // Change this to your custom domain later
+  const baseUrl = 'https://www.theglobalaihub.space'; // Updated to custom domain
 
   const toolUrls = tools.map((tool) => ({
     url: `${baseUrl}/tool/${tool.slug}`,

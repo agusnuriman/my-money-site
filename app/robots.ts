@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://globalaihub.vercel.app/sitemap.xml', // Change this to your domain later
+    sitemap: 'https://www.theglobalaihub.space/sitemap.xml',
   };
 }

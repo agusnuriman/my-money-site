@@ -3,10 +3,10 @@ export function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Global AI Hub",
-    "url": "https://globalaihub.com",
+    "url": "https://www.theglobalaihub.space",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://globalaihub.com/search?q={search_term_string}",
+      "target": "https://www.theglobalaihub.space/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     },
     "description": "Enterprise AI Software Directory and Deep Technical Reviews 2026",
@@ -15,7 +15,7 @@ export function StructuredData() {
       "name": "Global AI Hub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://globalaihub.com/logo.png"
+        "url": "https://www.theglobalaihub.space/logo.png"
       }
     }
   };
