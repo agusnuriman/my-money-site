@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=128"
 id: "adcreative-ai"
 slug: "adcreative-ai"
 name: "AdCreative.ai"
@@ -28,3 +29,5 @@ The speed at which you can test new creative angles is unparalleled. In a world 
 1. **Connect Your Ad Accounts**: Link your Meta or Google Ads account so the AI can learn from your specific historical performance data.
 2. **Utilize 'Creative Insights'**: Review the weekly reports to see which specific colors or layouts are driving the most conversions for your niche.
 3. **Batch Generate for Testing**: Generate at least 50 variations for every campaign and let your ad platform's algorithm find the winner based on the AI's scoring.
+
+

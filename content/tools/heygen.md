@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=heygen.com&sz=128"
 id: "heygen"
 slug: "heygen"
 name: "HeyGen"
@@ -25,3 +26,5 @@ While **Synthesia** is the established corporate leader, **HeyGen** is winning o
 
 ---
 *Scale your presence with AI. Professional video production without the camera crew.*
+
+

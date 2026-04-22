@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128"
 id: "writesonic"
 slug: "writesonic"
 name: "Writesonic"
@@ -31,3 +32,5 @@ Application submitted. This tool offers one of the best recurring commission str
 1. **Use the 'Latest' Model**: Always ensure you are using the latest version of their AI Article Writer for the most up-to-date Google data.
 2. **Customize Brand Voice**: Just like Jasper, you can upload your past work to train Writesonic on your specific writing style.
 3. **Bulk Generate**: Use the bulk generation feature to create 20-30 social media posts from a single blog article.
+
+

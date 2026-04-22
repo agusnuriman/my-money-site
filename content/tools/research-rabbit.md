@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=researchrabbitapp.com&sz=128"
 id: "research-rabbit"
 slug: "research-rabbit"
 name: "ResearchRabbit"
@@ -28,3 +29,5 @@ This tool saves days of work during literature reviews. It is a genuine game-cha
 1. **Start with 'Seed' Papers**: Input 2-3 key journals most relevant to your topic as the AI's foundation.
 2. **Use the 'Timeline' Feature**: Observe how a theory has evolved over the years through a timeline graph.
 3. **Sync with Zotero**: Connect your Zotero account so newly discovered references can be used immediately while writing.
+
+

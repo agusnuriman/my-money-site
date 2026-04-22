@@ -1,8 +1,9 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128"
 id: "eleven-labs"
 slug: "eleven-labs"
 name: "ElevenLabs"
-category: "Voice AI"
+category: "Audio"
 desc: "The world's most advanced AI audio platform."
 affiliateLink: "https://try.elevenlabs.io/tm32rs6v4i80"
 isEditorChoice: true
@@ -34,3 +35,5 @@ While **Murf.ai** is excellent for structured corporate training and e-learning 
 
 ---
 *The future of voice is here. High-fidelity audio at your command.*
+
+

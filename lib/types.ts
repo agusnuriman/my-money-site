@@ -8,6 +8,7 @@ export interface Tool {
   features: string[];
   isEditorChoice?: boolean;
   content: string;
+  logoUrl?: string;
 }
 
 

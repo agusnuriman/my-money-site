@@ -63,3 +63,14 @@ body {
   from { transform: translateX(-30vw); }
   to { transform: translateX(120vw); }
 }
+
+/* Utilities */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

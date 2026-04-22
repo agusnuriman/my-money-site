@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=grammarly.com&sz=128"
 id: "grammarly"
 slug: "grammarly"
 name: "Grammarly AI"
@@ -25,3 +26,5 @@ Grammarly has evolved from a simple spell-checker into a comprehensive AI commun
 
 ---
 *Communicate clearly and effectively. The world's most trusted writing assistant.*
+
+

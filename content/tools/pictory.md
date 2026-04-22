@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=pictory.ai&sz=128"
 id: "pictory"
 slug: "pictory"
 name: "Pictory"
@@ -40,3 +41,5 @@ While both are leaders in AI video creation, **Pictory** excels at turning long-
 
 ---
 *Leverage AI to accelerate your content production and start dominating social media algorithms today!*
+
+

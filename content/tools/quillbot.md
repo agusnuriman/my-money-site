@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=quillbot.com&sz=128"
 id: "quillbot"
 slug: "quillbot"
 name: "Quillbot"
@@ -25,3 +26,5 @@ Quillbot is used by millions of students and professionals to refine their writi
 
 ---
 *Write with confidence. Better phrasing, clearer ideas, and zero plagiarism.*
+
+

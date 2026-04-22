@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=descript.com&sz=128"
 id: "descript"
 slug: "descript"
 name: "Descript"
@@ -25,3 +26,5 @@ Descript revolutionized the podcasting and video editing industry by transcribin
 
 ---
 *The future of editing. Simple, powerful, and driven by AI.*
+
+

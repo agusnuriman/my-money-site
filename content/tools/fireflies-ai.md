@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=128"
 id: "fireflies-ai"
 slug: "fireflies-ai"
 name: "Fireflies.ai"
@@ -25,3 +26,5 @@ Fireflies.ai is a "Conversation Intelligence" platform. It doesn't just transcri
 
 ---
 *Transcribe, summarize, and analyze. Turn your meetings into a searchable knowledge base.*
+
+

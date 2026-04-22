@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=looka.com&sz=128"
 id: "looka"
 slug: "looka"
 name: "Looka"
@@ -25,3 +26,5 @@ Looka is a comprehensive branding platform for small business owners. It starts 
 
 ---
 *Design a brand you love. The all-in-one platform for your new business.*
+
+

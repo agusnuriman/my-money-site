@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=128"
 id: "beautiful-ai"
 slug: "beautiful-ai"
 name: "Beautiful.ai"
@@ -25,3 +26,5 @@ Beautiful.ai removes the frustration of "nudging" boxes and aligning text in Pow
 
 ---
 *Presentations that design themselves. Stop wasting time on slides.*
+
+

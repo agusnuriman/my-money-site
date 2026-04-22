@@ -1,8 +1,9 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=speechify.com&sz=128"
 id: "speechify"
 slug: "speechify"
 name: "Speechify"
-category: "Voice AI"
+category: "Audio"
 desc: "The world's #1 AI text-to-speech app that turns any text into natural-sounding audio."
 affiliateLink: "https://speechify.com/"
 isEditorChoice: true
@@ -25,3 +26,5 @@ Speechify is a productivity powerhouse. Originally designed to help those with d
 
 ---
 *Read 3x faster. Your personal AI reader for everything.*
+
+

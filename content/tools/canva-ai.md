@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=canva.com&sz=128"
 id: "canva-ai"
 slug: "canva-ai"
 name: "Canva Magic Studio"
@@ -31,3 +32,5 @@ Application submitted. The 'Canvassador' program is highly prestigious and adds 
 1. **Use 'Magic Morph'**: Transform text or shapes into unique textures (e.g., 'make this word look like balloon' or 'shiny gold').
 2. **Leverage Magic Expand**: If your photo is too small for your design, use Magic Expand to let the AI 'paint' the rest of the background.
 3. **Batch Create**: Use the 'Bulk Create' feature with a CSV file to generate 50-100 social media graphics in seconds.
+
+

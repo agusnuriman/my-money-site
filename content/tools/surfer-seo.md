@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=surferseo.com&sz=128"
 id: "surfer-seo"
 slug: "surfer-seo"
 name: "Surfer SEO"
@@ -28,3 +29,5 @@ Surfer is the industry standard for content optimization. Its integration with G
 1. **Aim for 70+ Score**: Don't just stuff keywords; aim for a natural flow that achieves a Surfer score of at least 70 for the best ranking chance.
 2. **Use the 'Outline' Builder**: Let Surfer generate your H1-H3 headings based on competitor analysis to ensure topical authority.
 3. **Analyze Multi-Keyword SERPs**: Group related keywords into one Surfer project to rank for dozens of long-tail variations simultaneously.
+
+

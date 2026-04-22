@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128"
 id: "perplexity"
 slug: "perplexity"
 name: "Perplexity AI"
@@ -28,3 +29,5 @@ In an era of AI hallucinations, Perplexity's strict adherence to cited sources m
 1. **Filter Specific Sources**: Use the 'Focus' feature to limit searches to Academic Journals or Reddit.
 2. **Verify Footnotes**: Click on reference numbers to check if the AI is citing truly relevant sources.
 3. **Use Copilot Mode**: Activate Copilot for research requiring step-by-step execution (e.g., comparing specs of different gadgets).
+
+

@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=jasper.ai&sz=128"
 id: "jasper-ai"
 slug: "jasper-ai"
 name: "Jasper"
@@ -28,3 +29,5 @@ The ROI for Jasper becomes immediately apparent when deployed across a team. The
 1. **Define Your Brand Voice**: Upload examples of your best company writing so Jasper can mimic your style precisely.
 2. **Utilize Recipes**: Use 'Jasper Recipes' for proven workflows (e.g., writing a blog post in under 5 minutes).
 3. **Real-time Plagiarism Checks**: Always use the integrated Copyscape feature within Jasper to ensure 100% original content.
+
+

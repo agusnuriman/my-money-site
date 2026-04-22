@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=lumen5.com&sz=128"
 id: "lumen5"
 slug: "lumen5"
 name: "Lumen5"
@@ -25,3 +26,5 @@ Lumen5 is a veteran in the AI video space, specifically designed for "content re
 
 ---
 *Engage your audience with video. Turn your written content into visual stories.*
+
+

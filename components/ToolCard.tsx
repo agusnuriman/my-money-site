@@ -23,9 +23,20 @@ export function ToolCard({ tool }: Readonly<ToolCardProps>) {
           )}
         </div>
         
-        <h2 className="mb-2 text-xl font-bold text-slate-900 transition-colors group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400">
-          {tool.name}
-        </h2>
+        <div className="flex items-center gap-4 mb-3">
+          {tool.logoUrl ? (
+            <div className="w-12 h-12 rounded-2xl bg-white p-2 border border-slate-100 dark:border-slate-800 shadow-sm overflow-hidden flex items-center justify-center">
+              <img src={tool.logoUrl} alt={tool.name} className="w-full h-full object-contain" />
+            </div>
+          ) : (
+            <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center text-white text-xl font-black shadow-lg shadow-blue-500/20">
+              {tool.name.charAt(0)}
+            </div>
+          )}
+          <h2 className="text-xl font-bold text-slate-900 transition-colors group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400 leading-tight">
+            {tool.name}
+          </h2>
+        </div>
         
         <p className="mb-6 line-clamp-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
           {tool.desc}

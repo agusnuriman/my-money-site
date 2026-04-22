@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=midjourney.com&sz=128"
 id: "midjourney"
 slug: "midjourney"
 name: "Midjourney"
@@ -25,3 +26,5 @@ While **Leonardo.ai** offers a more user-friendly web interface and more "pre-se
 
 ---
 *Unlock the limit of your imagination. Create professional-grade art in seconds.*
+
+

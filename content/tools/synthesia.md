@@ -1,8 +1,9 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=synthesia.io&sz=128"
 id: "synthesia"
 slug: "synthesia"
 name: "Synthesia"
-category: "Video AI"
+category: "Video"
 desc: "The #1 AI Video Generation platform for business."
 affiliateLink: "https://www.synthesia.io/?via=agus"
 isEditorChoice: true
@@ -34,3 +35,5 @@ Synthesia's avatar quality is unmatched in the industry. The time and cost savin
 
 ---
 *Enterprise-grade video production. Scaling your presence globally with AI.*
+
+

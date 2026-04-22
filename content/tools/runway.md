@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128"
 id: "runway"
 slug: "runway"
 name: "Runway Gen-2"
@@ -25,3 +26,5 @@ Runway Gen-2 is a pioneer in the AI video space. It allows users to generate hig
 
 ---
 *Anything you can imagine, you can see. The era of generative video is here.*
+
+

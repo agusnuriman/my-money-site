@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=notion.so&sz=128"
 id: "notion-ai"
 slug: "notion-ai"
 name: "Notion AI"
@@ -25,3 +26,5 @@ Notion AI brings the power of large language models directly into your workspace
 
 ---
 *Write faster. Think bigger. Augment your creativity with Notion AI.*
+
+

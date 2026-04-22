@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=copy.ai&sz=128"
 id: "copy-ai"
 slug: "copy-ai"
 name: "Copy.ai"
@@ -25,3 +26,5 @@ While **Jasper** is more focused on long-form blog posts and creative storytelli
 
 ---
 *End writer's block forever. Generate high-converting copy in seconds.*
+
+

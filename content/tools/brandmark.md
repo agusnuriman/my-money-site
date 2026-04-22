@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=brandmark.io&sz=128"
 id: "brandmark"
 slug: "brandmark"
 name: "Brandmark.io"
@@ -25,3 +26,5 @@ Brandmark.io uses generative AI to create high-end logo concepts that look like 
 
 ---
 *Professional branding for your big idea. High-end logos in minutes.*
+
+

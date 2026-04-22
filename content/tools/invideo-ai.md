@@ -1,8 +1,9 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=invideo.io&sz=128"
 id: "invideo-ai"
 slug: "invideo-ai"
 name: "InVideo AI"
-category: "Video AI"
+category: "Video"
 desc: "Generate full YouTube videos with scripts, voiceovers, and media from a single prompt."
 affiliateLink: "https://invideo.sjv.io/2RjPW0"
 isEditorChoice: false
@@ -40,3 +41,5 @@ While **Pictory** is king for turning blog posts into videos, **InVideo AI** is 
 
 ---
 *Transform your ideas into stunning videos instantly. The future of content creation is here.*
+
+

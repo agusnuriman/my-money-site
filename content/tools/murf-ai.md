@@ -1,8 +1,9 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=murf.ai&sz=128"
 id: "murf-ai"
 slug: "murf-ai"
 name: "Murf.ai"
-category: "Voice AI"
+category: "Audio"
 desc: "Studio-quality AI voiceovers for podcasts, ads, and explainer videos."
 affiliateLink: "https://murf.ai/"
 isEditorChoice: false
@@ -25,3 +26,5 @@ Murf.ai is a professional-grade voice generator. It goes beyond simple text-to-s
 
 ---
 *Professional voiceovers in minutes. No studio, no mic, just AI.*
+
+

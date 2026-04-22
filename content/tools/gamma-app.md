@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=gamma.app&sz=128"
 id: "gamma-app"
 slug: "gamma-app"
 name: "Gamma.app"
@@ -28,3 +29,5 @@ The production speed is unmatched. The final result looks like a modern website,
 1. **Edit via AI Chat**: If the design isn't quite right, use the AI button to request specific changes (e.g., 'make it more formal').
 2. **Import from Outlines**: Don't let the AI work in a vacuum; input your assignment outline for better academic accuracy.
 3. **Use Custom Themes**: Align colors and fonts with your university or corporate identity for a professional impression.
+
+

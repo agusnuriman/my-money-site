@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128"
 id: "claude-ai"
 slug: "claude-ai"
 name: "Claude AI"
@@ -28,3 +29,5 @@ Claude rarely hallucinates and has a very elegant writing style. It is perfectly
 1. **Use Artifacts Mode**: When requesting code or diagrams, ensure Artifacts mode is active for real-time previews.
 2. **Provide Reference Documents**: Upload your lecture PDFs and ask Claude to summarize key points likely to appear in exams.
 3. **'Chain-of-Thought' Prompting**: Ask Claude to 'think step-by-step' before providing the final answer for maximum logical accuracy.
+
+

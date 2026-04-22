@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=otter.ai&sz=128"
 id: "otter-ai"
 slug: "otter-ai"
 name: "Otter.ai"
@@ -25,3 +26,5 @@ While **Fireflies.ai** offers more complex workflow integrations for sales teams
 
 ---
 *Never take meeting notes again. Focus on the conversation, let Otter handle the rest.*
+
+

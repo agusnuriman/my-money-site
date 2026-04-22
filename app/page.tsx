@@ -2,6 +2,7 @@ import { getAllTools } from "@/lib/data";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ToolCard } from "@/components/ToolCard";
+import { ToolGrid } from "@/components/ToolGrid";
 import { Newsletter } from "@/components/Newsletter";
 import { Metadata } from "next";
 
@@ -55,12 +56,8 @@ export default async function Home() {
           </div>
         </div>
 
-        {/* TOOLS GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-32">
-          {tools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
+        {/* DYNAMIC TOOLS GRID */}
+        <ToolGrid initialTools={tools} />
 
         {/* NEWSLETTER AUTHORITY */}
         <Newsletter />

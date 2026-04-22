@@ -27,6 +27,7 @@ export async function getAllTools(): Promise<Tool[]> {
           features: matterResult.data.features || [],
           isEditorChoice: matterResult.data.isEditorChoice,
           content: matterResult.content,
+          logoUrl: matterResult.data.logoUrl,
         } as Tool;
       });
       

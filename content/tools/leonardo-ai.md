@@ -1,4 +1,5 @@
 ---
+logoUrl: "https://www.google.com/s2/favicons?domain=leonardo.ai&sz=128"
 id: "leonardo-ai"
 slug: "leonardo-ai"
 name: "Leonardo.ai"
@@ -25,3 +26,5 @@ Leonardo.ai is the best "all-in-one" platform for those who find Midjourney's Di
 
 ---
 *Professional AI art tools at your fingertips. Built for creators, by creators.*
+
+
